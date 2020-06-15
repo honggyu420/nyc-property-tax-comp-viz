@@ -56,9 +56,9 @@ class DataChart extends Component {
       cols.push(<Col>{value_keys[value_code]}</Col>)
       for (let time_code in time_keys) {
         let val = property_tax_info[time_code+value_code]
-        if (value_code === 'taxrate' && property_tax_info[time_code+'taxclass'].indexOf('1') > -1) {
+        if (value_code === 'taxrate' && property_tax_info[time_code+'taxclass'] && property_tax_info[time_code+'taxclass'].indexOf('1') > -1) {
           val = '21.167%'
-        } else if (value_code === 'taxrate' && property_tax_info[time_code+'taxclass'].indexOf('2') > -1) {
+        } else if (value_code === 'taxrate' && property_tax_info[time_code+'taxclass'] && property_tax_info[time_code+'taxclass'].indexOf('2') > -1) {
           val = '12.473%'
         }
         if (val === undefined) {
@@ -80,7 +80,7 @@ class DataChart extends Component {
     if (this.props.property_tax_data) {
         dataChart = this.statGrid(this.props.property_tax_data)   
     }
-    
+
     return <div>{dataChart}</div>
   }
 }

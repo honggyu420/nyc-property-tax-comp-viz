@@ -17,9 +17,9 @@ class AggregateReport extends Component {
 
   aggComparisonReport(agg_result) {
     let agg_report = []
-
+    
     if (agg_result) {
-      agg_report.push(<h4>Compared to this property, there are <b>{this.numWithCommas(agg_result.count, false)}</b> properties of the same class that have lower effective tax rates.</h4>)
+      agg_report.push(<h4>Compared to this property, there are <b>{this.numWithCommas(agg_result.count, false)}</b> properties of the same class that migher market value and lower effective tax rates.</h4>)
     }
     
     return agg_report
