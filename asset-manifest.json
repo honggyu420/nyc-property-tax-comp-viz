@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nyc-property-tax-comp-viz/static/css/main.f6eee63b.chunk.css",
+    "main.js": "/nyc-property-tax-comp-viz/static/js/main.adbfd3bf.chunk.js",
+    "main.js.map": "/nyc-property-tax-comp-viz/static/js/main.adbfd3bf.chunk.js.map",
+    "runtime-main.js": "/nyc-property-tax-comp-viz/static/js/runtime-main.e13dc5c0.js",
+    "runtime-main.js.map": "/nyc-property-tax-comp-viz/static/js/runtime-main.e13dc5c0.js.map",
+    "static/js/2.24735c7c.chunk.js": "/nyc-property-tax-comp-viz/static/js/2.24735c7c.chunk.js",
+    "static/js/2.24735c7c.chunk.js.map": "/nyc-property-tax-comp-viz/static/js/2.24735c7c.chunk.js.map",
+    "index.html": "/nyc-property-tax-comp-viz/index.html",
+    "precache-manifest.c534faf8c0fe864a8e2ddc8528d6af9c.js": "/nyc-property-tax-comp-viz/precache-manifest.c534faf8c0fe864a8e2ddc8528d6af9c.js",
+    "service-worker.js": "/nyc-property-tax-comp-viz/service-worker.js",
+    "static/css/main.f6eee63b.chunk.css.map": "/nyc-property-tax-comp-viz/static/css/main.f6eee63b.chunk.css.map",
+    "static/js/2.24735c7c.chunk.js.LICENSE.txt": "/nyc-property-tax-comp-viz/static/js/2.24735c7c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e13dc5c0.js",
+    "static/js/2.24735c7c.chunk.js",
+    "static/css/main.f6eee63b.chunk.css",
+    "static/js/main.adbfd3bf.chunk.js"
+  ]
+}
