@@ -1,6 +1,6 @@
 {
-  "name": "nyc-property-tax-comp-viz",
-  "homepage": "http://honggyu420.github.io/nyc-property-tax-comp-viz",
+  "name": "nyc-prop-tax",
+  "homepage": "http://honggyu420.github.io/nyc-prop-tax",
   "version": "0.9.0",
   "private": true,
   "dependencies": {
