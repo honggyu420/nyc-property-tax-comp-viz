@@ -1,68 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## NYC Property Tax Comparison Tool ([View it here](https://honggyu420.github.io/nyc-prop-tax/))
 
-## Available Scripts
+![alt text](https://github.com/honggyu420/nyc-prop-tax/blob/master/images/example.png)
 
-In the project directory, you can run:
+This React app includes a visualization that maps the median assessed market value of [Class 1](https://www1.nyc.gov/site/finance/taxes/property-bills-and-payments.page) homes, the median effective tax rate, and the calculated tax bill using those values for each neighborhood in New York City. On the map, the "redness" of the neighborhood polygon correlates to the effective tax rate value.
 
-### `yarn start`
+## How the data was gathered
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+• Every year, New York City makes available tax assessment for each property on its five boroughs that can be found [here](https://www1.nyc.gov/site/finance/taxes/property-assessments.page).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+• A geojson of neighborhood polygons was converted from [this comprehensive map](https://www.google.com/maps/d/u/1/viewer?hl=en&ll=40.70476551690573%2C-73.97829884999997&z=10&mid=1_gsxJNfmcGZI4ZL_7LnEHj72YpvgNq-w) that collaborators created on Google Maps.
 
-### `yarn test`
+• Each of the properties can be uniquely identified with a combination of borough, block, and lot (BBL) that the tax assessment dataset provides. The [Geoclient API](https://developer.cityofnewyork.us/api/geoclient-api) was then used to query each BBL to acquire the longitude and latitude for each property.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+• I loaded all this data onto PostgreSQL and exported the neighborhood-based aggregate results that are available on the data directory of this repo. The ETL process of this data will be available as another repo soon.
 
-### `yarn build`
+## Effective Tax Rate
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Effective tax rate (ETR) is the percent of market value of the home that the landowner will pay the city (tax bill divided by market price). This value is not provided on the tax assessment dataset, but can be calculated with the values provided.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+On the visualization, the effective tax rate takes the exemptions into consideration.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+It is debated that New York City's property tax system is amongst the most antiquated and complicated tax system in the nation, so it did not make my job easy here. I'm currently limiting the visualization to only show data on class 1 properties which is relatively simpler to work with. Here's how the city does it:
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+> 1. The city's Department of Finance assesses a market price for a property.
+> 2. That value is used to derive an assessment value which is USUALLY 6% of the market price. I used the vague word "derive" intentionally.
+> 3. If the property has exemptions, the exemption amount is subtracted from the assessment value.
+> 4. It then applies the actual tax rate of the tax class that the property class belongs to. For class 1, It's 21.34%. This is the tax bill.
+> 5. If the property has abatements, the abatement amount is subtracted from the tax bill. Now we finally have the final tax bill that the landowner pays.
