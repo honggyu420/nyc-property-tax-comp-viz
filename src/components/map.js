@@ -60,11 +60,26 @@ class Map extends Component {
       lat: 40.7351,
       zoom: 10.35,
       bounds: [
-        // [-74.26899, 40.497429], // southwest
-        [-74.357224, 40.495717],
-        // [-73.485184, 40.946384], // northeast
-        [-73.400462, 41.022003],
+        [-74.357224, 40.495717], // southwest
+        [-73.400462, 41.022003], // northeast
       ],
+      remove_layers: [
+        "road",
+        "aeroway",
+        "road",
+        "airport",
+        "poi",
+        "place-city-lg-n",
+        "place-city-lg-s",
+        "place-city-md-n",
+        "place-city-md-s",
+        "place-city-sm",
+        "place-town",
+        "place-village",
+        "place-suburb",
+        "place-hamlet",
+      ],
+      allowed_layers: ["road-motorway", "road-street", "road-primary", "road-secondary-tertiary", "road-label-large"],
     };
   }
 
@@ -85,65 +100,25 @@ class Map extends Component {
       });
     });
 
-    // let remove_layers = [
-    //   "road",
-    //   "aeroway",
-    //   "road",
-    //   "airport",
-    //   "poi",
-    //   "place-city-lg-n",
-    //   "place-city-lg-s",
-    //   "place-city-md-n"
-    //   "place-city-md-s"
-    //   "place-city-sm"
-    //   "place-town"
-    //   "place-village"
-    //   "place-suburb"
-    //   "place-hamlet"
-    // ];
     map.on("load", () => {
-      let filter_styles = map
-        .getStyle()
-        .layers.filter(
-          (style) =>
-            style.id.indexOf("road") > -1 ||
-            style.id.indexOf("aeroway") > -1 ||
-            style.id.indexOf("road") > -1 ||
-            style.id.indexOf("airport") > -1 ||
-            style.id.indexOf("poi") > -1
-        );
-      const allowed_styles = [
-        "road-motorway",
-        "road-street",
-        "road-primary",
-        "road-secondary-tertiary",
-        // "road-trunk",
-        // "road-steps",
-        "road-label-large",
-      ];
-      console.log(map.getStyle().layers);
+      const { remove_layers, allowed_layers } = this.state;
+      let layers = map.getStyle().layers;
+      let filterable_layers = layers.filter((style) => {
+        return remove_layers.reduce((accum, val) => accum || style.id.indexOf(val) > -1, false);
+      });
 
-      for (let style of filter_styles) {
-        if (allowed_styles.indexOf(style.id) < 0) {
-          map.removeLayer(style.id);
-        } else {
+      for (let layer of filterable_layers) {
+        if (allowed_layers.indexOf(layer.id) < 0) {
+          map.removeLayer(layer.id);
         }
       }
-      map.removeLayer("place-city-lg-n");
-      map.removeLayer("place-city-lg-s");
-      map.removeLayer("place-city-md-n");
-      map.removeLayer("place-city-md-s");
-      map.removeLayer("place-city-sm");
-      map.removeLayer("place-town");
-      map.removeLayer("place-village");
-      map.removeLayer("place-suburb");
-      map.removeLayer("place-hamlet");
 
       map.addSource("nyc-property-tax", {
         type: "geojson",
         data: enriched_neighborhood_data,
       });
 
+      // adding neighborhood polygon layer
       map.addLayer({
         id: "neighborhood-polygons",
         type: "fill",
@@ -153,13 +128,12 @@ class Map extends Component {
             property: "etr_index",
             stops: color_mapping,
           },
-          // 'fill-outline-color': '#F18065',
-          // 'fill-outline-color': '#000000',
           "fill-opacity": 0.6,
         },
         filter: ["==", "$type", "Polygon"],
       });
 
+      // add another layer for neighborhood border
       map.addLayer({
         id: "neighborhood-polygon-lines",
         type: "line",
@@ -175,6 +149,7 @@ class Map extends Component {
       });
     });
 
+    // show popup on click
     map.on("click", "neighborhood-polygons", function (e) {
       let { Name, med_etr, med_mkt_val } = e.features[0].properties;
       let med_etr_formatted = (med_etr * 100).toFixed(2) + "%";
