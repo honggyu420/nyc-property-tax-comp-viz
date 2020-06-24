@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import mapboxgl from "mapbox-gl";
 import "../App.css";
-import { FormatPriceAbbrev } from "../helpers/helpers";
+import { FormatPriceAbbrev, numWithCommas } from "../helpers/helpers";
 const neighborhood_data = require("../data/neighborhoods_reddit.json");
 const neighborhood_tax_data = require("../data/neighborhoods_med_tax.json");
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
@@ -177,9 +177,10 @@ class Map extends Component {
 
     map.on("click", "neighborhood-polygons", function (e) {
       let { Name, med_etr, med_mkt_val } = e.features[0].properties;
-      med_etr = (med_etr * 100).toFixed(2) + "%";
-      med_mkt_val = FormatPriceAbbrev(med_mkt_val);
-      let html = `<b>${Name}</b><br>Median price: ${med_mkt_val}<br>Median ETR: ${med_etr}`;
+      let med_etr_formatted = (med_etr * 100).toFixed(2) + "%";
+      let med_mkt_val_formatted = FormatPriceAbbrev(med_mkt_val);
+      let tax_bill = numWithCommas(med_mkt_val * med_etr);
+      let html = `<b>${Name}</b><br>Median price: ${med_mkt_val_formatted}<br>Median ETR: ${med_etr_formatted}<br>↪Tax Bill: ${tax_bill}`;
       new mapboxgl.Popup().setLngLat(e.lngLat).setHTML(html).addTo(map);
     });
 
