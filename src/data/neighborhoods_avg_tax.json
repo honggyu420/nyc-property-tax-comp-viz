@@ -1,0 +1,1674 @@
+[
+  {
+    "boro": 1,
+    "neighborhood": "Upper East Side",
+    "avg_mkt_val": 12894915.785191212,
+    "avg_etr_no_exemption": 0.007540167678705095,
+    "avg_etr": 0.0071494639032878525,
+    "property_count": 2458
+  },
+  {
+    "boro": 1,
+    "neighborhood": "NoHo",
+    "avg_mkt_val": 12066700,
+    "avg_etr_no_exemption": 0.004024399062752528,
+    "avg_etr": 0.004013909312413249,
+    "property_count": 20
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Greenwich Village",
+    "avg_mkt_val": 11604640.625,
+    "avg_etr_no_exemption": 0.004891026152038015,
+    "avg_etr": 0.004742085568868773,
+    "property_count": 640
+  },
+  {
+    "boro": 1,
+    "neighborhood": "West Village",
+    "avg_mkt_val": 11046878.816793893,
+    "avg_etr_no_exemption": 0.004322274940763275,
+    "avg_etr": 0.004265322894897587,
+    "property_count": 1048
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Financial District",
+    "avg_mkt_val": 10909923.076923076,
+    "avg_etr_no_exemption": 0.005517225699925586,
+    "avg_etr": 0.005516639734402752,
+    "property_count": 26
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Tribeca",
+    "avg_mkt_val": 10021978.021978023,
+    "avg_etr_no_exemption": 0.004932053066267756,
+    "avg_etr": 0.004924216326523195,
+    "property_count": 91
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Morningside Heights",
+    "avg_mkt_val": 9418000,
+    "avg_etr_no_exemption": 0.0024283134413764385,
+    "avg_etr": 0.001907645246961488,
+    "property_count": 2
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Chelsea",
+    "avg_mkt_val": 8979756.225108225,
+    "avg_etr_no_exemption": 0.004778812888614446,
+    "avg_etr": 0.004677369513858478,
+    "property_count": 462
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Upper West Side",
+    "avg_mkt_val": 8889725,
+    "avg_etr_no_exemption": 0.005412300060635338,
+    "avg_etr": 0.005358735242801479,
+    "property_count": 1200
+  },
+  {
+    "boro": 1,
+    "neighborhood": "SoHo",
+    "avg_mkt_val": 8840763.157894736,
+    "avg_etr_no_exemption": 0.005067243770638702,
+    "avg_etr": 0.00506219538479655,
+    "property_count": 76
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Nolita",
+    "avg_mkt_val": 8643000,
+    "avg_etr_no_exemption": 0.00611008621608177,
+    "avg_etr": 0.00610549326040114,
+    "property_count": 26
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Gramercy",
+    "avg_mkt_val": 8603902.654867256,
+    "avg_etr_no_exemption": 0.005880055640180909,
+    "avg_etr": 0.005850945769475651,
+    "property_count": 226
+  },
+  {
+    "boro": 1,
+    "neighborhood": "East Village",
+    "avg_mkt_val": 8501103.896103896,
+    "avg_etr_no_exemption": 0.0027751372792744746,
+    "avg_etr": 0.0027635606087599266,
+    "property_count": 154
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Sutton Place",
+    "avg_mkt_val": 7999000,
+    "avg_etr_no_exemption": 0.009794349415753408,
+    "avg_etr": 0.009794349415753408,
+    "property_count": 54
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Little Italy",
+    "avg_mkt_val": 7964062.5,
+    "avg_etr_no_exemption": 0.003609742481503841,
+    "avg_etr": 0.003609742481503841,
+    "property_count": 32
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Meatpacking District",
+    "avg_mkt_val": 7833000,
+    "avg_etr_no_exemption": 0.0017028245873749932,
+    "avg_etr": 0.0017028245873749932,
+    "property_count": 2
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Hudson Square",
+    "avg_mkt_val": 7663072.7272727275,
+    "avg_etr_no_exemption": 0.00479458033355837,
+    "avg_etr": 0.004674741287607578,
+    "property_count": 110
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Midtown",
+    "avg_mkt_val": 7323326.0869565215,
+    "avg_etr_no_exemption": 0.008497761482941402,
+    "avg_etr": 0.007295749305967988,
+    "property_count": 276
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Lower East Side",
+    "avg_mkt_val": 6877786.8852459015,
+    "avg_etr_no_exemption": 0.0035052984082632175,
+    "avg_etr": 0.0034598703994461904,
+    "property_count": 61
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Brooklyn Heights",
+    "avg_mkt_val": 6808407.665505227,
+    "avg_etr_no_exemption": 0.004241769563479497,
+    "avg_etr": 0.004174527855549667,
+    "property_count": 1148
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Hell's Kitchen",
+    "avg_mkt_val": 6662673.469387755,
+    "avg_etr_no_exemption": 0.005624911995574779,
+    "avg_etr": 0.005607459579034515,
+    "property_count": 98
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Murray Hill",
+    "avg_mkt_val": 5772666.666666667,
+    "avg_etr_no_exemption": 0.008971955137888664,
+    "avg_etr": 0.008594374768035325,
+    "property_count": 138
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Alphabet City",
+    "avg_mkt_val": 5737666.666666667,
+    "avg_etr_no_exemption": 0.0024827896050866704,
+    "avg_etr": 0.0020557997339760953,
+    "property_count": 72
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Kips Bay",
+    "avg_mkt_val": 5468375,
+    "avg_etr_no_exemption": 0.008011168878881012,
+    "avg_etr": 0.00794229796125034,
+    "property_count": 144
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Two Bridges",
+    "avg_mkt_val": 4887250,
+    "avg_etr_no_exemption": 0.0037816214111254945,
+    "avg_etr": 0.0037365163631887977,
+    "property_count": 8
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Cobble Hill",
+    "avg_mkt_val": 4716919.439579685,
+    "avg_etr_no_exemption": 0.0031578402393726943,
+    "avg_etr": 0.003089133295140414,
+    "property_count": 1142
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Chinatown",
+    "avg_mkt_val": 4337888.888888889,
+    "avg_etr_no_exemption": 0.007208471783647086,
+    "avg_etr": 0.007201599919952641,
+    "property_count": 18
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Flatiron District",
+    "avg_mkt_val": 4201000,
+    "avg_etr_no_exemption": 0.0127002,
+    "avg_etr": 0.0127002,
+    "property_count": 2
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Park Slope",
+    "avg_mkt_val": 3492423.163544782,
+    "avg_etr_no_exemption": 0.002995517416532922,
+    "avg_etr": 0.0029156148659949324,
+    "property_count": 6353
+  },
+  {
+    "boro": 3,
+    "neighborhood": "DUMBO",
+    "avg_mkt_val": 3364750,
+    "avg_etr_no_exemption": 0.004853240087078711,
+    "avg_etr": 0.004853240087078711,
+    "property_count": 16
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Boerum Hill",
+    "avg_mkt_val": 3211048.098946404,
+    "avg_etr_no_exemption": 0.0031880176213284488,
+    "avg_etr": 0.0030863150433549417,
+    "property_count": 2183
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Fort Greene",
+    "avg_mkt_val": 3126631.3446126445,
+    "avg_etr_no_exemption": 0.003133739300195843,
+    "avg_etr": 0.0029813369967092098,
+    "property_count": 2246
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Carroll Gardens",
+    "avg_mkt_val": 3082796.865905849,
+    "avg_etr_no_exemption": 0.0029153318336906145,
+    "avg_etr": 0.00282722280130835,
+    "property_count": 2804
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Prospect Heights",
+    "avg_mkt_val": 2783029.9089726917,
+    "avg_etr_no_exemption": 0.0030221351872552708,
+    "avg_etr": 0.00287436659727559,
+    "property_count": 1538
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Harlem",
+    "avg_mkt_val": 2693016.6818319685,
+    "avg_etr_no_exemption": 0.003977412001211318,
+    "avg_etr": 0.0036443502537603957,
+    "property_count": 3297
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Downtown Brooklyn",
+    "avg_mkt_val": 2575521.7391304346,
+    "avg_etr_no_exemption": 0.0036341588874586966,
+    "avg_etr": 0.003086661519311467,
+    "property_count": 46
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Vinegar Hill",
+    "avg_mkt_val": 2572057.1428571427,
+    "avg_etr_no_exemption": 0.003703130984638411,
+    "avg_etr": 0.0035807017728986764,
+    "property_count": 70
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Brooklyn Navy Yard",
+    "avg_mkt_val": 2538214.285714286,
+    "avg_etr_no_exemption": 0.003874858777038381,
+    "avg_etr": 0.0038600274792792376,
+    "property_count": 28
+  },
+  {
+    "boro": 1,
+    "neighborhood": "East Harlem",
+    "avg_mkt_val": 2448756.690997567,
+    "avg_etr_no_exemption": 0.004413503658763541,
+    "avg_etr": 0.003717374065803557,
+    "property_count": 822
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Columbia Street Waterfront District",
+    "avg_mkt_val": 2441735.576923077,
+    "avg_etr_no_exemption": 0.004537482555133329,
+    "avg_etr": 0.00428490686321093,
+    "property_count": 416
+  },
+  {
+    "boro": 3,
+    "neighborhood": "South Slope",
+    "avg_mkt_val": 2335376.297105407,
+    "avg_etr_no_exemption": 0.0026559053415300673,
+    "avg_etr": 0.0025482824564917756,
+    "property_count": 3662
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Clinton Hill",
+    "avg_mkt_val": 2325941.2231930103,
+    "avg_etr_no_exemption": 0.0033281381048214514,
+    "avg_etr": 0.0031799320233954595,
+    "property_count": 2518
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Gowanus",
+    "avg_mkt_val": 2249048.425624321,
+    "avg_etr_no_exemption": 0.0024699017270583333,
+    "avg_etr": 0.002363085352699941,
+    "property_count": 1842
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Riverdale",
+    "avg_mkt_val": 1980162.8169014084,
+    "avg_etr_no_exemption": 0.009739242293099646,
+    "avg_etr": 0.009451716899242913,
+    "property_count": 710
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Fieldston",
+    "avg_mkt_val": 1971788.5906040268,
+    "avg_etr_no_exemption": 0.009735302546849874,
+    "avg_etr": 0.009309845558888979,
+    "property_count": 894
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Williamsburg",
+    "avg_mkt_val": 1961958.259493671,
+    "avg_etr_no_exemption": 0.00380580424503459,
+    "avg_etr": 0.003592132579643474,
+    "property_count": 6320
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Greenpoint",
+    "avg_mkt_val": 1950539.3855393855,
+    "avg_etr_no_exemption": 0.0033973970112913484,
+    "avg_etr": 0.003248015714971258,
+    "property_count": 4329
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Washington Heights",
+    "avg_mkt_val": 1926091.7431192661,
+    "avg_etr_no_exemption": 0.0040921835164165294,
+    "avg_etr": 0.0037633252185895133,
+    "property_count": 436
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Windsor Terrace",
+    "avg_mkt_val": 1882894.6132978722,
+    "avg_etr_no_exemption": 0.003683550719294282,
+    "avg_etr": 0.0034803389237237975,
+    "property_count": 3760
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Red Hook",
+    "avg_mkt_val": 1840041.1311053985,
+    "avg_etr_no_exemption": 0.003613435534560144,
+    "avg_etr": 0.0035202711319189993,
+    "property_count": 778
+  },
+  {
+    "boro": 3,
+    "neighborhood": "East Williamsburg",
+    "avg_mkt_val": 1698100.9615384615,
+    "avg_etr_no_exemption": 0.0034830365875730715,
+    "avg_etr": 0.003125064937887218,
+    "property_count": 832
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Manhattan Beach",
+    "avg_mkt_val": 1623490.353697749,
+    "avg_etr_no_exemption": 0.008796125574028492,
+    "avg_etr": 0.008426112844157714,
+    "property_count": 2488
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Borough Park",
+    "avg_mkt_val": 1618695.696642076,
+    "avg_etr_no_exemption": 0.006495681119267082,
+    "avg_etr": 0.006116709065846733,
+    "property_count": 15724
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Prospect Lefferts Gardens",
+    "avg_mkt_val": 1612949.5109701296,
+    "avg_etr_no_exemption": 0.00463296936348182,
+    "avg_etr": 0.0043025187801218525,
+    "property_count": 3783
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Greenwood Heights",
+    "avg_mkt_val": 1521323.1441048034,
+    "avg_etr_no_exemption": 0.0034998207725264216,
+    "avg_etr": 0.003291410651824032,
+    "property_count": 2748
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Flatbush",
+    "avg_mkt_val": 1508985.7218402962,
+    "avg_etr_no_exemption": 0.005748720708562815,
+    "avg_etr": 0.005483984510949286,
+    "property_count": 7564
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Spuyten Duyvil",
+    "avg_mkt_val": 1465237.037037037,
+    "avg_etr_no_exemption": 0.007863077838159371,
+    "avg_etr": 0.007500601341689228,
+    "property_count": 540
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Midwood",
+    "avg_mkt_val": 1425104.4124587069,
+    "avg_etr_no_exemption": 0.007390925017169689,
+    "avg_etr": 0.007019887406189055,
+    "property_count": 16952
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Bed Stuy",
+    "avg_mkt_val": 1403766.1864681127,
+    "avg_etr_no_exemption": 0.0037473602475686834,
+    "avg_etr": 0.00338410551827123,
+    "property_count": 24712
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Astoria",
+    "avg_mkt_val": 1360704.3982995423,
+    "avg_etr_no_exemption": 0.0064254654156326455,
+    "avg_etr": 0.006017621506160127,
+    "property_count": 12232
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Bay Terrace",
+    "avg_mkt_val": 1357956.4336372847,
+    "avg_etr_no_exemption": 0.009904704475147613,
+    "avg_etr": 0.009360899015538271,
+    "property_count": 1974
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Crown Heights",
+    "avg_mkt_val": 1346674.426870446,
+    "avg_etr_no_exemption": 0.004734717134835518,
+    "avg_etr": 0.004348674527986186,
+    "property_count": 11254
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Forest Hills",
+    "avg_mkt_val": 1337024.2599219258,
+    "avg_etr_no_exemption": 0.007956279709088694,
+    "avg_etr": 0.007534878230065026,
+    "property_count": 12296
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Sunset Park",
+    "avg_mkt_val": 1333910.6598099887,
+    "avg_etr_no_exemption": 0.005055774967140645,
+    "avg_etr": 0.004787439563006245,
+    "property_count": 11473
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Bay Ridge",
+    "avg_mkt_val": 1326146.5583684116,
+    "avg_etr_no_exemption": 0.007734275357723913,
+    "avg_etr": 0.007301203297096056,
+    "property_count": 16867
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Kensington",
+    "avg_mkt_val": 1316934.3848843016,
+    "avg_etr_no_exemption": 0.005903323352604731,
+    "avg_etr": 0.0055399710689479085,
+    "property_count": 6007
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Hunters Point/Long Island City",
+    "avg_mkt_val": 1276060.1719197708,
+    "avg_etr_no_exemption": 0.006576577714639903,
+    "avg_etr": 0.006454882762816534,
+    "property_count": 698
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Bensonhurst",
+    "avg_mkt_val": 1274002.3180242635,
+    "avg_etr_no_exemption": 0.006887841261221388,
+    "avg_etr": 0.006337744771353307,
+    "property_count": 18464
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Neponsit",
+    "avg_mkt_val": 1261820.397689769,
+    "avg_etr_no_exemption": 0.009360434374955916,
+    "avg_etr": 0.009003364669891052,
+    "property_count": 1212
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Ditmars Steinway",
+    "avg_mkt_val": 1258826.124717735,
+    "avg_etr_no_exemption": 0.006875032708589171,
+    "avg_etr": 0.006370775675755037,
+    "property_count": 11514
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Gravesend",
+    "avg_mkt_val": 1245515.2174551147,
+    "avg_etr_no_exemption": 0.007122220213373831,
+    "avg_etr": 0.006590307719681671,
+    "property_count": 20441
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Dyker Heights",
+    "avg_mkt_val": 1239793.1206796037,
+    "avg_etr_no_exemption": 0.007322872692943002,
+    "avg_etr": 0.006811009037076468,
+    "property_count": 12007
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Sunnyside",
+    "avg_mkt_val": 1197083.5641735918,
+    "avg_etr_no_exemption": 0.00686944788841555,
+    "avg_etr": 0.0064945497142982166,
+    "property_count": 4332
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Jamaica Estates",
+    "avg_mkt_val": 1189158.3107166928,
+    "avg_etr_no_exemption": 0.01000311533185691,
+    "avg_etr": 0.009464223944521236,
+    "property_count": 4451
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Bath Beach",
+    "avg_mkt_val": 1184510.0029420417,
+    "avg_etr_no_exemption": 0.00733416881393947,
+    "avg_etr": 0.006762433070369516,
+    "property_count": 6798
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Bushwick",
+    "avg_mkt_val": 1176609.756097561,
+    "avg_etr_no_exemption": 0.00558463146274893,
+    "avg_etr": 0.005291094498517982,
+    "property_count": 82
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Bushwick",
+    "avg_mkt_val": 1150077.9170234296,
+    "avg_etr_no_exemption": 0.0040302074812095115,
+    "avg_etr": 0.003596359140329254,
+    "property_count": 12847
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Woodside",
+    "avg_mkt_val": 1138967.083399272,
+    "avg_etr_no_exemption": 0.007531161424587153,
+    "avg_etr": 0.007031163898793148,
+    "property_count": 6319
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Oakland Gardens",
+    "avg_mkt_val": 1136158.5575562702,
+    "avg_etr_no_exemption": 0.008941419195125712,
+    "avg_etr": 0.008323786051758134,
+    "property_count": 3110
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Little Neck",
+    "avg_mkt_val": 1134956.135318275,
+    "avg_etr_no_exemption": 0.00954447444728889,
+    "avg_etr": 0.008991009004166986,
+    "property_count": 9740
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Elmhurst",
+    "avg_mkt_val": 1126895.672840518,
+    "avg_etr_no_exemption": 0.007917915802244243,
+    "avg_etr": 0.007207133999183718,
+    "property_count": 12202
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Flushing",
+    "avg_mkt_val": 1104603.5444289518,
+    "avg_etr_no_exemption": 0.008113783585248845,
+    "avg_etr": 0.0075194387605470835,
+    "property_count": 23667
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Breezy Point",
+    "avg_mkt_val": 1096583.3333333333,
+    "avg_etr_no_exemption": 0.00975267963240038,
+    "avg_etr": 0.00958410026397022,
+    "property_count": 48
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Murray Hill",
+    "avg_mkt_val": 1081182.773153753,
+    "avg_etr_no_exemption": 0.008423664777565062,
+    "avg_etr": 0.007856214832967686,
+    "property_count": 13216
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Whitestone",
+    "avg_mkt_val": 1071646.933300817,
+    "avg_etr_no_exemption": 0.008957343798270774,
+    "avg_etr": 0.008331346573247736,
+    "property_count": 16402
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Hollis Hills",
+    "avg_mkt_val": 1055966.8882008945,
+    "avg_etr_no_exemption": 0.009930647101574493,
+    "avg_etr": 0.009428943695492796,
+    "property_count": 2907
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Rego Park",
+    "avg_mkt_val": 1050795.3123659757,
+    "avg_etr_no_exemption": 0.008569665499100142,
+    "avg_etr": 0.00796734344151711,
+    "property_count": 5596
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Sheepshead Bay",
+    "avg_mkt_val": 1049890.279185106,
+    "avg_etr_no_exemption": 0.00783635046693375,
+    "avg_etr": 0.007310635130883871,
+    "property_count": 26212
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Bayside",
+    "avg_mkt_val": 1040620.2368806282,
+    "avg_etr_no_exemption": 0.00887517513937528,
+    "avg_etr": 0.008274620859280192,
+    "property_count": 22543
+  },
+  {
+    "boro": 4,
+    "neighborhood": "North Corona",
+    "avg_mkt_val": 1024606.4285714285,
+    "avg_etr_no_exemption": 0.007009729176956918,
+    "avg_etr": 0.006295279775577517,
+    "property_count": 5600
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Corona",
+    "avg_mkt_val": 1023789.5464103335,
+    "avg_etr_no_exemption": 0.007860637839291688,
+    "avg_etr": 0.007014034342778032,
+    "property_count": 6658
+  },
+  {
+    "boro": 2,
+    "neighborhood": "North Riverdale",
+    "avg_mkt_val": 1016263.3851468049,
+    "avg_etr_no_exemption": 0.009747851080032224,
+    "avg_etr": 0.00932360130108706,
+    "property_count": 2316
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Auberndale",
+    "avg_mkt_val": 1013822.550463073,
+    "avg_etr_no_exemption": 0.00887472853747071,
+    "avg_etr": 0.008194030833420395,
+    "property_count": 8422
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Ridgewood",
+    "avg_mkt_val": 1002246.2683438155,
+    "avg_etr_no_exemption": 0.0067967987254803795,
+    "avg_etr": 0.0063269520627994525,
+    "property_count": 9540
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Holliswood",
+    "avg_mkt_val": 998368.1318681319,
+    "avg_etr_no_exemption": 0.010291887836955,
+    "avg_etr": 0.009637486982561573,
+    "property_count": 1820
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Fresh Meadows",
+    "avg_mkt_val": 996100.4046546547,
+    "avg_etr_no_exemption": 0.009548607368340368,
+    "avg_etr": 0.008981332195141724,
+    "property_count": 2664
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Jackson Heights",
+    "avg_mkt_val": 988882.5874226508,
+    "avg_etr_no_exemption": 0.008343107023663735,
+    "avg_etr": 0.007787129735211559,
+    "property_count": 13898
+  },
+  {
+    "boro": 4,
+    "neighborhood": "College Point",
+    "avg_mkt_val": 987819.9311023622,
+    "avg_etr_no_exemption": 0.008242306071358011,
+    "avg_etr": 0.007747844780352237,
+    "property_count": 10160
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Belle Harbor",
+    "avg_mkt_val": 986418.7878787878,
+    "avg_etr_no_exemption": 0.009609085191548987,
+    "avg_etr": 0.009116419003994392,
+    "property_count": 3300
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Utopia",
+    "avg_mkt_val": 984256.7335954037,
+    "avg_etr_no_exemption": 0.009366060792636525,
+    "avg_etr": 0.008779121876299957,
+    "property_count": 3307
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Fort Hamilton",
+    "avg_mkt_val": 975307.6923076923,
+    "avg_etr_no_exemption": 0.008416286388560673,
+    "avg_etr": 0.0077993081253959744,
+    "property_count": 26
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Kew Garden Hills",
+    "avg_mkt_val": 959805.4163162322,
+    "avg_etr_no_exemption": 0.008561298207924256,
+    "avg_etr": 0.00802437022065302,
+    "property_count": 7134
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Mill Basin",
+    "avg_mkt_val": 958465.8831662633,
+    "avg_etr_no_exemption": 0.010009325562742585,
+    "avg_etr": 0.009419139425928485,
+    "property_count": 5786
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Inwood",
+    "avg_mkt_val": 953068.9655172414,
+    "avg_etr_no_exemption": 0.008727397109776783,
+    "avg_etr": 0.008193133297447157,
+    "property_count": 58
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Kew Gardens",
+    "avg_mkt_val": 931411.4457831326,
+    "avg_etr_no_exemption": 0.008872699444201763,
+    "avg_etr": 0.008415499896346313,
+    "property_count": 3320
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Maspeth",
+    "avg_mkt_val": 896250.05192108,
+    "avg_etr_no_exemption": 0.008070765432993059,
+    "avg_etr": 0.007506194840943954,
+    "property_count": 19260
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Middle Village",
+    "avg_mkt_val": 893104.2485086571,
+    "avg_etr_no_exemption": 0.008410471853984133,
+    "avg_etr": 0.0077247023471807294,
+    "property_count": 13746
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Hillcrest",
+    "avg_mkt_val": 882646.2126948775,
+    "avg_etr_no_exemption": 0.008897653399070836,
+    "avg_etr": 0.00834113799568414,
+    "property_count": 5388
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Jamaica Hills",
+    "avg_mkt_val": 880014.2322097379,
+    "avg_etr_no_exemption": 0.008855686625572885,
+    "avg_etr": 0.008249789408966719,
+    "property_count": 2670
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Briarwood",
+    "avg_mkt_val": 852074.6343923348,
+    "avg_etr_no_exemption": 0.00905365024072175,
+    "avg_etr": 0.008394942051782721,
+    "property_count": 3966
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Lindenwood",
+    "avg_mkt_val": 850118.2965299685,
+    "avg_etr_no_exemption": 0.009663192759107325,
+    "avg_etr": 0.009135458840363514,
+    "property_count": 1268
+  },
+  {
+    "boro": 4,
+    "neighborhood": "East Elmhurst",
+    "avg_mkt_val": 849701.0438413362,
+    "avg_etr_no_exemption": 0.008031251315700622,
+    "avg_etr": 0.007623183910373137,
+    "property_count": 4790
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Sea Gate",
+    "avg_mkt_val": 845400.8756218905,
+    "avg_etr_no_exemption": 0.008643059912153923,
+    "avg_etr": 0.00817059875787774,
+    "property_count": 1608
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Kingsbridge",
+    "avg_mkt_val": 844596.5346534654,
+    "avg_etr_no_exemption": 0.00894356111477387,
+    "avg_etr": 0.008215252979608931,
+    "property_count": 808
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Glen Oaks",
+    "avg_mkt_val": 837627.1830985915,
+    "avg_etr_no_exemption": 0.010205054081080906,
+    "avg_etr": 0.009473424733548572,
+    "property_count": 1420
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Brighton Beach",
+    "avg_mkt_val": 820793.5241670577,
+    "avg_etr_no_exemption": 0.008018939404503385,
+    "avg_etr": 0.007624648875571393,
+    "property_count": 2131
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Bergen Beach",
+    "avg_mkt_val": 816268.6680194805,
+    "avg_etr_no_exemption": 0.010258694552676162,
+    "avg_etr": 0.009620342383169781,
+    "property_count": 4928
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Glendale",
+    "avg_mkt_val": 815193.5925612849,
+    "avg_etr_no_exemption": 0.008349931065537866,
+    "avg_etr": 0.007735801306099587,
+    "property_count": 11830
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Rockaway Park",
+    "avg_mkt_val": 772021.686746988,
+    "avg_etr_no_exemption": 0.00890294391150194,
+    "avg_etr": 0.00842232155755005,
+    "property_count": 1660
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Howard Beach",
+    "avg_mkt_val": 771200.3501238646,
+    "avg_etr_no_exemption": 0.010622579125098308,
+    "avg_etr": 0.009630223901400841,
+    "property_count": 4844
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Marine Park",
+    "avg_mkt_val": 758041.5280750864,
+    "avg_etr_no_exemption": 0.008953440275935518,
+    "avg_etr": 0.008288201729300214,
+    "property_count": 12146
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Richmond Hill",
+    "avg_mkt_val": 739760.6382978724,
+    "avg_etr_no_exemption": 0.009052540436617323,
+    "avg_etr": 0.008505209990602829,
+    "property_count": 7520
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Floral Park",
+    "avg_mkt_val": 739749.4875549049,
+    "avg_etr_no_exemption": 0.010672002358603255,
+    "avg_etr": 0.009948681868761182,
+    "property_count": 6830
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Country Club",
+    "avg_mkt_val": 736828.3778801843,
+    "avg_etr_no_exemption": 0.010378162518114123,
+    "avg_etr": 0.009607593899650184,
+    "property_count": 3689
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Old Howard Beach",
+    "avg_mkt_val": 735927.5604467805,
+    "avg_etr_no_exemption": 0.009643918137445076,
+    "avg_etr": 0.008762501333706872,
+    "property_count": 3044
+  },
+  {
+    "boro": 1,
+    "neighborhood": "Marble Hill",
+    "avg_mkt_val": 725205.4794520548,
+    "avg_etr_no_exemption": 0.008482691172856858,
+    "avg_etr": 0.008136215370459606,
+    "property_count": 292
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Kingsbridge Heights",
+    "avg_mkt_val": 709963.3883704236,
+    "avg_etr_no_exemption": 0.008822784819919776,
+    "avg_etr": 0.008173884038671206,
+    "property_count": 1393
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Woodhaven",
+    "avg_mkt_val": 708227.2634791455,
+    "avg_etr_no_exemption": 0.00851853797215865,
+    "avg_etr": 0.008020591449638846,
+    "property_count": 11796
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Cypress Hills",
+    "avg_mkt_val": 699285.5753073317,
+    "avg_etr_no_exemption": 0.00749180888808699,
+    "avg_etr": 0.0071077219420087705,
+    "property_count": 11307
+  },
+  {
+    "boro": 3,
+    "neighborhood": "East Flatbush",
+    "avg_mkt_val": 692898.6634814861,
+    "avg_etr_no_exemption": 0.008904650642118945,
+    "avg_etr": 0.008286609548610793,
+    "property_count": 31814
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Rochdale",
+    "avg_mkt_val": 690500,
+    "avg_etr_no_exemption": 0.008892031005773293,
+    "avg_etr": 0.008647562016766565,
+    "property_count": 24
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Glendale",
+    "avg_mkt_val": 687800,
+    "avg_etr_no_exemption": 0.0075877119334442494,
+    "avg_etr": 0.007266420235354956,
+    "property_count": 10
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Ozone Park",
+    "avg_mkt_val": 687227.027027027,
+    "avg_etr_no_exemption": 0.008746494762068412,
+    "avg_etr": 0.008492572604084933,
+    "property_count": 370
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Pelham Parkway",
+    "avg_mkt_val": 686688.1720430107,
+    "avg_etr_no_exemption": 0.010816252858675858,
+    "avg_etr": 0.010191262217134322,
+    "property_count": 372
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Ozone Park",
+    "avg_mkt_val": 684557.2345312078,
+    "avg_etr_no_exemption": 0.008962170593357308,
+    "avg_etr": 0.008382005296483419,
+    "property_count": 14804
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Melrose",
+    "avg_mkt_val": 681586.6261398176,
+    "avg_etr_no_exemption": 0.0077962449580703955,
+    "avg_etr": 0.006262092379915469,
+    "property_count": 658
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Bellerose Manor",
+    "avg_mkt_val": 681470.2592945662,
+    "avg_etr_no_exemption": 0.01021293448592361,
+    "avg_etr": 0.009516165833662153,
+    "property_count": 10490
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Norwood",
+    "avg_mkt_val": 677794.3107221007,
+    "avg_etr_no_exemption": 0.009143303353554991,
+    "avg_etr": 0.00858412097320481,
+    "property_count": 914
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Mott Haven",
+    "avg_mkt_val": 676850.7783145464,
+    "avg_etr_no_exemption": 0.006544212990148703,
+    "avg_etr": 0.0058014995469184965,
+    "property_count": 1863
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Woodlawn Heights",
+    "avg_mkt_val": 674083.2535885167,
+    "avg_etr_no_exemption": 0.010278654725212956,
+    "avg_etr": 0.009666449581687778,
+    "property_count": 2090
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Lindenwood",
+    "avg_mkt_val": 673000,
+    "avg_etr_no_exemption": 0.011780686229618623,
+    "avg_etr": 0.011780686229618623,
+    "property_count": 2
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Morris Heights",
+    "avg_mkt_val": 667659.3959731543,
+    "avg_etr_no_exemption": 0.006702116638519516,
+    "avg_etr": 0.006084034482338299,
+    "property_count": 1192
+  },
+  {
+    "boro": 2,
+    "neighborhood": "West Farms",
+    "avg_mkt_val": 664803.3707865168,
+    "avg_etr_no_exemption": 0.008736916437306052,
+    "avg_etr": 0.0073677252564169834,
+    "property_count": 356
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Concourse Village",
+    "avg_mkt_val": 664426.267281106,
+    "avg_etr_no_exemption": 0.005769700376067973,
+    "avg_etr": 0.005178609365044685,
+    "property_count": 868
+  },
+  {
+    "boro": 4,
+    "neighborhood": "South Richmond Hill",
+    "avg_mkt_val": 664227.2240885902,
+    "avg_etr_no_exemption": 0.009338052579712248,
+    "avg_etr": 0.00882884218831743,
+    "property_count": 8037
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Fordham Manor",
+    "avg_mkt_val": 663011.0619469027,
+    "avg_etr_no_exemption": 0.008038700571984143,
+    "avg_etr": 0.007094723041894586,
+    "property_count": 904
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Mt Eden",
+    "avg_mkt_val": 662698.7951807228,
+    "avg_etr_no_exemption": 0.0058056714215675605,
+    "avg_etr": 0.005021440607212738,
+    "property_count": 166
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Hunts Point",
+    "avg_mkt_val": 661143.6950146628,
+    "avg_etr_no_exemption": 0.006414021083305869,
+    "avg_etr": 0.005672378682730362,
+    "property_count": 682
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Morris Park",
+    "avg_mkt_val": 660694.8111759288,
+    "avg_etr_no_exemption": 0.010123645644579737,
+    "avg_etr": 0.00931473234360113,
+    "property_count": 6514
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Westchester Square",
+    "avg_mkt_val": 659950.0454132607,
+    "avg_etr_no_exemption": 0.009519703878808196,
+    "avg_etr": 0.008884613968852638,
+    "property_count": 2202
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Brownsville",
+    "avg_mkt_val": 658825.1380151496,
+    "avg_etr_no_exemption": 0.007179079427082446,
+    "avg_etr": 0.0060565125773430996,
+    "property_count": 7789
+  },
+  {
+    "boro": 3,
+    "neighborhood": "The Hole",
+    "avg_mkt_val": 656724.1379310344,
+    "avg_etr_no_exemption": 0.00800323312503208,
+    "avg_etr": 0.00791493569196096,
+    "property_count": 58
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Pelham Gardens",
+    "avg_mkt_val": 656496.3223536937,
+    "avg_etr_no_exemption": 0.01024841265818362,
+    "avg_etr": 0.009554447605736344,
+    "property_count": 6254
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Pelham Bay",
+    "avg_mkt_val": 655221.734082397,
+    "avg_etr_no_exemption": 0.010461455945198227,
+    "avg_etr": 0.00976434528132279,
+    "property_count": 2670
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Flatlands",
+    "avg_mkt_val": 651392.0848204913,
+    "avg_etr_no_exemption": 0.00997690288193549,
+    "avg_etr": 0.009365034051529978,
+    "property_count": 19052
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Parkchester",
+    "avg_mkt_val": 643524.1935483871,
+    "avg_etr_no_exemption": 0.009597264435964191,
+    "avg_etr": 0.009020768817681908,
+    "property_count": 1240
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Schuylerville",
+    "avg_mkt_val": 643252.0487557135,
+    "avg_etr_no_exemption": 0.010005841204033392,
+    "avg_etr": 0.009289080481387066,
+    "property_count": 3938
+  },
+  {
+    "boro": 2,
+    "neighborhood": "University Heights",
+    "avg_mkt_val": 642415.9132007234,
+    "avg_etr_no_exemption": 0.00783861573362235,
+    "avg_etr": 0.007202656932554995,
+    "property_count": 1106
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Soundview",
+    "avg_mkt_val": 642340.6239948537,
+    "avg_etr_no_exemption": 0.009638105088500184,
+    "avg_etr": 0.00897292283505183,
+    "property_count": 6218
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Olinville",
+    "avg_mkt_val": 642183.3333333334,
+    "avg_etr_no_exemption": 0.009536993221363022,
+    "avg_etr": 0.008965329826390827,
+    "property_count": 1320
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Mt Hope",
+    "avg_mkt_val": 640586.0805860806,
+    "avg_etr_no_exemption": 0.005847480029508924,
+    "avg_etr": 0.005557787874238788,
+    "property_count": 546
+  },
+  {
+    "boro": 3,
+    "neighborhood": "East New York",
+    "avg_mkt_val": 640300.1502818381,
+    "avg_etr_no_exemption": 0.007161069262408513,
+    "avg_etr": 0.006178958880930151,
+    "property_count": 20934
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Bedford Park",
+    "avg_mkt_val": 640085.8676207514,
+    "avg_etr_no_exemption": 0.008446638619110448,
+    "avg_etr": 0.00779983025538445,
+    "property_count": 1118
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Co-op City",
+    "avg_mkt_val": 638238.8059701492,
+    "avg_etr_no_exemption": 0.009549094183540495,
+    "avg_etr": 0.009267964532604903,
+    "property_count": 134
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Belmont/Little Italy",
+    "avg_mkt_val": 635041.5704387991,
+    "avg_etr_no_exemption": 0.0072572489329534706,
+    "avg_etr": 0.006558403902102573,
+    "property_count": 2165
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Canarsie",
+    "avg_mkt_val": 634837.0103179263,
+    "avg_etr_no_exemption": 0.01000186062119486,
+    "avg_etr": 0.009492639848037115,
+    "property_count": 23842
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Highbridge",
+    "avg_mkt_val": 633151.7730496454,
+    "avg_etr_no_exemption": 0.006548175741077874,
+    "avg_etr": 0.005654959664708356,
+    "property_count": 705
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Longwood",
+    "avg_mkt_val": 630395.061728395,
+    "avg_etr_no_exemption": 0.007341450270167696,
+    "avg_etr": 0.0063079319821660335,
+    "property_count": 2754
+  },
+  {
+    "boro": 4,
+    "neighborhood": "East New York",
+    "avg_mkt_val": 629333.3333333334,
+    "avg_etr_no_exemption": 0.004454421227353724,
+    "avg_etr": 0.004454421227353724,
+    "property_count": 6
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Allerton",
+    "avg_mkt_val": 627685.2268466442,
+    "avg_etr_no_exemption": 0.009934808718118485,
+    "avg_etr": 0.009269879228299078,
+    "property_count": 5334
+  },
+  {
+    "boro": 4,
+    "neighborhood": "South Ozone Park",
+    "avg_mkt_val": 625630.7289118737,
+    "avg_etr_no_exemption": 0.00916029936061522,
+    "avg_etr": 0.008584680898420394,
+    "property_count": 28618
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Van Nest",
+    "avg_mkt_val": 623922.0505617978,
+    "avg_etr_no_exemption": 0.00944986943528383,
+    "avg_etr": 0.00886684459240702,
+    "property_count": 2848
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Tremont",
+    "avg_mkt_val": 621351.3513513514,
+    "avg_etr_no_exemption": 0.007710243676969795,
+    "avg_etr": 0.00649293001281421,
+    "property_count": 1184
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Throgs Neck",
+    "avg_mkt_val": 619369.445676275,
+    "avg_etr_no_exemption": 0.010250615988719342,
+    "avg_etr": 0.009484566399514541,
+    "property_count": 10824
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Unionport",
+    "avg_mkt_val": 619301.6787658802,
+    "avg_etr_no_exemption": 0.009604636970881222,
+    "avg_etr": 0.008931058639242066,
+    "property_count": 4408
+  },
+  {
+    "boro": 2,
+    "neighborhood": "City Island",
+    "avg_mkt_val": 618482.6974267968,
+    "avg_etr_no_exemption": 0.010582167172467013,
+    "avg_etr": 0.00991024140880909,
+    "property_count": 2254
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Far Rockaway",
+    "avg_mkt_val": 617567.1474264212,
+    "avg_etr_no_exemption": 0.009188685256153142,
+    "avg_etr": 0.008563132606298233,
+    "property_count": 7441
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Jamaica",
+    "avg_mkt_val": 616409.069673076,
+    "avg_etr_no_exemption": 0.008377888346829938,
+    "avg_etr": 0.0077632758465854,
+    "property_count": 21687
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Brookville",
+    "avg_mkt_val": 609420.0444883836,
+    "avg_etr_no_exemption": 0.009657464548654432,
+    "avg_etr": 0.0090412232454847,
+    "property_count": 8092
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Morrisania",
+    "avg_mkt_val": 599940.7894736842,
+    "avg_etr_no_exemption": 0.007264570514731565,
+    "avg_etr": 0.006039238499414456,
+    "property_count": 1520
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Claremont Village",
+    "avg_mkt_val": 598572.1649484537,
+    "avg_etr_no_exemption": 0.006119612588087528,
+    "avg_etr": 0.005661797582849778,
+    "property_count": 776
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Williamsbridge",
+    "avg_mkt_val": 598328.0889732809,
+    "avg_etr_no_exemption": 0.009646626976115551,
+    "avg_etr": 0.009137941909416117,
+    "property_count": 7373
+  },
+  {
+    "boro": 2,
+    "neighborhood": "East Morrisania",
+    "avg_mkt_val": 593460.212604404,
+    "avg_etr_no_exemption": 0.008088698573604612,
+    "avg_etr": 0.007218765281230459,
+    "property_count": 2634
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Rosedale",
+    "avg_mkt_val": 591323.979865053,
+    "avg_etr_no_exemption": 0.01006879825187294,
+    "avg_etr": 0.009499767212763605,
+    "property_count": 9337
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Springfield Gardens",
+    "avg_mkt_val": 590433.624613144,
+    "avg_etr_no_exemption": 0.009307919897813733,
+    "avg_etr": 0.008693961275618504,
+    "property_count": 5493
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Castle Hill",
+    "avg_mkt_val": 589746.0456942003,
+    "avg_etr_no_exemption": 0.010206487535181453,
+    "avg_etr": 0.009399500653658067,
+    "property_count": 2276
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Fordham Heights",
+    "avg_mkt_val": 589614.3250688706,
+    "avg_etr_no_exemption": 0.00719231352598488,
+    "avg_etr": 0.006548521931455425,
+    "property_count": 726
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Hollis",
+    "avg_mkt_val": 584652.4535625173,
+    "avg_etr_no_exemption": 0.009773612294552784,
+    "avg_etr": 0.009063908091601453,
+    "property_count": 7214
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Coney Island",
+    "avg_mkt_val": 582793.5540069686,
+    "avg_etr_no_exemption": 0.008025263219318228,
+    "avg_etr": 0.0070537459834551655,
+    "property_count": 2296
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Edenwald",
+    "avg_mkt_val": 581836.2850971923,
+    "avg_etr_no_exemption": 0.010477501464563213,
+    "avg_etr": 0.009912407591602323,
+    "property_count": 4630
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Queens Village",
+    "avg_mkt_val": 580435.800583352,
+    "avg_etr_no_exemption": 0.009550896627424532,
+    "avg_etr": 0.00888342532906484,
+    "property_count": 22285
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Bayswater",
+    "avg_mkt_val": 580047.6694915254,
+    "avg_etr_no_exemption": 0.010052638750101482,
+    "avg_etr": 0.00947417101742481,
+    "property_count": 1888
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Concourse",
+    "avg_mkt_val": 574024.3902439025,
+    "avg_etr_no_exemption": 0.005671250218728771,
+    "avg_etr": 0.005101887790575625,
+    "property_count": 164
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Eastchester",
+    "avg_mkt_val": 572243.0362116991,
+    "avg_etr_no_exemption": 0.010276138699901889,
+    "avg_etr": 0.009569063662268394,
+    "property_count": 1436
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Baychester",
+    "avg_mkt_val": 566274.6113989637,
+    "avg_etr_no_exemption": 0.010395465857492325,
+    "avg_etr": 0.00979400993431669,
+    "property_count": 5018
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Wakefield",
+    "avg_mkt_val": 566076.6202063154,
+    "avg_etr_no_exemption": 0.010134419809726862,
+    "avg_etr": 0.009532706766815193,
+    "property_count": 12699
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Arverne",
+    "avg_mkt_val": 563926.2717364379,
+    "avg_etr_no_exemption": 0.008860009683681136,
+    "avg_etr": 0.006743093662628126,
+    "property_count": 4037
+  },
+  {
+    "boro": 2,
+    "neighborhood": "Classon Point",
+    "avg_mkt_val": 560721.5007215007,
+    "avg_etr_no_exemption": 0.008546394148998467,
+    "avg_etr": 0.008004471503938924,
+    "property_count": 2772
+  },
+  {
+    "boro": 4,
+    "neighborhood": "South Jamaica",
+    "avg_mkt_val": 552771.4709701354,
+    "avg_etr_no_exemption": 0.008384875098765466,
+    "avg_etr": 0.007814787783837865,
+    "property_count": 10782
+  },
+  {
+    "boro": 4,
+    "neighborhood": "St. Albans",
+    "avg_mkt_val": 550594.6067080003,
+    "avg_etr_no_exemption": 0.009559258778370688,
+    "avg_etr": 0.00883266886356966,
+    "property_count": 26774
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Rockaway Beach",
+    "avg_mkt_val": 550339.2451569806,
+    "avg_etr_no_exemption": 0.008929131165039312,
+    "avg_etr": 0.007953826433278965,
+    "property_count": 1497
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Laurelton",
+    "avg_mkt_val": 548568.270165209,
+    "avg_etr_no_exemption": 0.010342846953698987,
+    "avg_etr": 0.009547235637456564,
+    "property_count": 12348
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Cambria Heights",
+    "avg_mkt_val": 535904.6700942587,
+    "avg_etr_no_exemption": 0.01052174312597623,
+    "avg_etr": 0.009624429237773327,
+    "property_count": 9336
+  },
+  {
+    "boro": 4,
+    "neighborhood": "The Hole",
+    "avg_mkt_val": 516604.1666666667,
+    "avg_etr_no_exemption": 0.005229009120366561,
+    "avg_etr": 0.005029186477249636,
+    "property_count": 96
+  },
+  {
+    "boro": 3,
+    "neighborhood": "Gerritsen Beach",
+    "avg_mkt_val": 515622.44813935074,
+    "avg_etr_no_exemption": 0.009072037158502926,
+    "avg_etr": 0.008269247237638357,
+    "property_count": 3789
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Hamilton Beach",
+    "avg_mkt_val": 490631.76320939336,
+    "avg_etr_no_exemption": 0.006865251707864314,
+    "avg_etr": 0.0063079750649584045,
+    "property_count": 1022
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Broad Channel",
+    "avg_mkt_val": 456144.2201183432,
+    "avg_etr_no_exemption": 0.007244599306861106,
+    "avg_etr": 0.006533043219892614,
+    "property_count": 1690
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Edgemere",
+    "avg_mkt_val": 442903.2878787879,
+    "avg_etr_no_exemption": 0.0073964079094156225,
+    "avg_etr": 0.005659144731196378,
+    "property_count": 1320
+  },
+  {
+    "boro": 4,
+    "neighborhood": "Meadowmere",
+    "avg_mkt_val": 398391.3043478261,
+    "avg_etr_no_exemption": 0.00638965207930504,
+    "avg_etr": 0.006059192583873721,
+    "property_count": 92
+  }
+]
