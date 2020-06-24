@@ -155,7 +155,7 @@ class Map extends Component {
       let med_etr_formatted = (med_etr * 100).toFixed(2) + "%";
       let med_mkt_val_formatted = FormatPriceAbbrev(med_mkt_val);
       let tax_bill = numWithCommas(med_mkt_val * med_etr);
-      let html = `<b>${Name}</b><br>Median price: ${med_mkt_val_formatted}<br>Median ETR: ${med_etr_formatted}<br>↪Tax Bill: ${tax_bill}`;
+      let html = `<b>${Name}</b><br>Median price: ${med_mkt_val_formatted}<br>Median ETR: ${med_etr_formatted}<br>➥Tax Bill: ${tax_bill}`;
       new mapboxgl.Popup().setLngLat(e.lngLat).setHTML(html).addTo(map);
     });
 
