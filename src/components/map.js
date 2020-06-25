@@ -175,6 +175,11 @@ class Map extends Component {
         popup.remove();
       }
     };
+
+    popup.on("close", () => {
+      persist_popup = false;
+    });
+
     map.on("click", "neighborhood-polygons", (e) => {
       persist_popup = !persist_popup;
     });
