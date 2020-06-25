@@ -159,9 +159,10 @@ class Map extends Component {
     var popup_1_open = false;
     var popup_2_open = false;
 
+    // restrict touchscreen users from having two popups
     window.addEventListener(
       "touchstart",
-      function onFirstTouch() {
+      () => {
         window.USER_IS_TOUCHING = true;
       },
       false
