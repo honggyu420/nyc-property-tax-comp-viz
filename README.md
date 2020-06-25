@@ -1,6 +1,6 @@
 ## NYC Property Tax Comparison Tool ([View it here](https://honggyu420.github.io/nyc-prop-tax/))
 
-![alt text](https://github.com/honggyu420/nyc-prop-tax/blob/master/images/example.png)
+![alt text](https://github.com/honggyu420/nyc-prop-tax/blob/master/images/example_1.png)
 
 This React app includes a visualization that maps the median assessed market value of [Class 1](https://www1.nyc.gov/site/finance/taxes/property-bills-and-payments.page) homes, the median effective tax rate, and the calculated tax bill using those values for each neighborhood in New York City. On the map, the "redness" of the neighborhood polygon correlates to the effective tax rate value.
 
