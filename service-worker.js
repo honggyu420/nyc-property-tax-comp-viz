@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nyc-prop-tax/precache-manifest.bd84716ecd94dee083fccca3a1bc801a.js"
+  "/nyc-prop-tax/precache-manifest.6dca8e42cb3243103504ddfd3e33b385.js"
 );
 
 self.addEventListener('message', (event) => {
