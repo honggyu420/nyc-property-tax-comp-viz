@@ -89,8 +89,6 @@ class Map extends Component {
   }
 
   componentDidMount() {
-    console.log("this happens");
-
     const map = new mapboxgl.Map({
       container: this.mapContainer,
       style: "mapbox://styles/mapbox/dark-v9",
@@ -156,32 +154,50 @@ class Map extends Component {
       });
     });
 
-    var popup = new mapboxgl.Popup({ className: "mapbox-popup", closeOnClick: false });
-    var persist_popup = false;
+    var popup_1 = new mapboxgl.Popup({ className: "mapbox-popup", closeOnClick: false });
+    var popup_2 = new mapboxgl.Popup({ className: "mapbox-popup", closeOnClick: false });
+    var popup_1_open = false;
+    var popup_2_open = false;
+
+    window.addEventListener(
+      "touchstart",
+      function onFirstTouch() {
+        window.USER_IS_TOUCHING = true;
+      },
+      false
+    );
 
     const showPopup = (e) => {
-      if (!persist_popup) {
-        let { Name, med_etr, med_mkt_val } = e.features[0].properties;
-        let med_etr_formatted = (med_etr * 100).toFixed(2) + "%";
-        let med_mkt_val_formatted = FormatPriceAbbrev(med_mkt_val);
-        let tax_bill = numWithCommas(med_mkt_val * med_etr);
-        let html = `<b>${Name}</b><br>Median ETR: <b>${med_etr_formatted}</b><br>Median price: ${med_mkt_val_formatted}<br>➥Tax Bill: ${tax_bill}`;
-        popup.setLngLat(e.lngLat).setHTML(html).addTo(map);
+      let { Name, med_etr, med_mkt_val } = e.features[0].properties;
+      let med_etr_formatted = (med_etr * 100).toFixed(2) + "%";
+      let med_mkt_val_formatted = FormatPriceAbbrev(med_mkt_val);
+      let tax_bill = numWithCommas(med_mkt_val * med_etr);
+      let html = `<b>${Name}</b><br>Median ETR: <b>${med_etr_formatted}</b><br>Median price: ${med_mkt_val_formatted}<br>➥Tax Bill: ${tax_bill}`;
+      if (!popup_1_open || window.USER_IS_TOUCHING) {
+        popup_1.setLngLat(e.lngLat).setHTML(html).addTo(map);
+      } else {
+        popup_2_open = true;
+        popup_2.setLngLat(e.lngLat).setHTML(html).addTo(map);
       }
     };
 
     const closePopup = (e) => {
-      if (!persist_popup) {
-        popup.remove();
+      if (popup_1_open && popup_1_open) {
+        // popup_1.remove();
+        popup_2.remove();
+      } else {
+        popup_1.remove();
       }
     };
 
-    popup.on("close", () => {
-      persist_popup = false;
+    popup_1.on("close", () => {
+      popup_1_open = false;
+      popup_2_open = false;
     });
 
     map.on("click", "neighborhood-polygons", (e) => {
-      persist_popup = !persist_popup;
+      showPopup(e);
+      popup_1_open = true;
     });
     // Show popup on hover over neighborhood polygons
     map.on("mousemove", "neighborhood-polygons", showPopup);
