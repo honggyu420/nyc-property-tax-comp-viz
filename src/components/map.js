@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import InfoModal from "./info_modal";
 import mapboxgl from "mapbox-gl";
 import "../App.css";
 import { FormatPriceAbbrev, numWithCommas } from "../helpers/helpers";
@@ -56,6 +57,7 @@ class Map extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      show: false,
       lng: -73.8907,
       lat: 40.7351,
       zoom: 10.35,
@@ -81,6 +83,9 @@ class Map extends Component {
       ],
       allowed_layers: ["road-motorway", "road-street", "road-primary", "road-secondary-tertiary", "road-label-large"],
     };
+
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
   }
 
   componentDidMount() {
@@ -155,7 +160,7 @@ class Map extends Component {
       let med_etr_formatted = (med_etr * 100).toFixed(2) + "%";
       let med_mkt_val_formatted = FormatPriceAbbrev(med_mkt_val);
       let tax_bill = numWithCommas(med_mkt_val * med_etr);
-      let html = `<b>${Name}</b><br>Median price: ${med_mkt_val_formatted}<br>Median ETR: ${med_etr_formatted}<br>➥Tax Bill: ${tax_bill}`;
+      let html = `<b>${Name}</b><br>Median ETR: <b>${med_etr_formatted}</b><br>Median price: ${med_mkt_val_formatted}<br>➥Tax Bill: ${tax_bill}`;
       new mapboxgl.Popup().setLngLat(e.lngLat).setHTML(html).addTo(map);
     });
 
@@ -170,18 +175,31 @@ class Map extends Component {
     });
   }
 
+  handleShow() {
+    this.setState({ show: true });
+  }
+
+  handleClose() {
+    this.setState({ show: false });
+  }
+
   render() {
+    let { show } = this.state;
     return (
       <div>
         <div>
           <div className="sidebarStyle">
             <p>
-              <b>NYC Property Tax Rate (Class 1)</b>
+              <b>NYC Property Tax Rate - Class 1</b>
             </p>
             <p>Select a neighborhood for more info.</p>
+            <a href="#" onClick={this.handleShow}>
+              ( What is this? )
+            </a>
           </div>
         </div>
         <div ref={(el) => (this.mapContainer = el)} className="mapContainer" />
+        <InfoModal show={show} handleClose={this.handleClose} color_mapping={color_mapping}></InfoModal>
       </div>
     );
   }

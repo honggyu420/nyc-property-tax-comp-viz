@@ -62,3 +62,14 @@
 p {
   margin: 0em;
 }
+
+.my-modal .modal-content {
+  background-color: #191a1a;
+  color: #ffffff;
+}
+
+.legend-block {
+  height: 10px;
+  width: 12.5%;
+  display: inline-block;
+}
