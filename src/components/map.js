@@ -154,24 +154,21 @@ class Map extends Component {
       });
     });
 
-    // show popup on click
-    map.on("click", "neighborhood-polygons", function (e) {
+    var popup = new mapboxgl.Popup({ className: "mapbox-popup", closeOnClick: false });
+
+    // Show popup on hover over neighborhood polygons
+    map.on("mousemove", "neighborhood-polygons", function (e) {
       let { Name, med_etr, med_mkt_val } = e.features[0].properties;
       let med_etr_formatted = (med_etr * 100).toFixed(2) + "%";
       let med_mkt_val_formatted = FormatPriceAbbrev(med_mkt_val);
       let tax_bill = numWithCommas(med_mkt_val * med_etr);
       let html = `<b>${Name}</b><br>Median ETR: <b>${med_etr_formatted}</b><br>Median price: ${med_mkt_val_formatted}<br>➥Tax Bill: ${tax_bill}`;
-      new mapboxgl.Popup().setLngLat(e.lngLat).setHTML(html).addTo(map);
+      popup.setLngLat(e.lngLat).setHTML(html).addTo(map);
     });
 
-    // Change the cursor to a pointer when the mouse is over the states layer.
-    map.on("mouseenter", "neighborhood-polygons", function () {
-      map.getCanvas().style.cursor = "pointer";
-    });
-
-    // Change it back to a pointer when it leaves.
+    // remove popup
     map.on("mouseleave", "neighborhood-polygons", function () {
-      map.getCanvas().style.cursor = "";
+      popup.remove();
     });
   }
 
