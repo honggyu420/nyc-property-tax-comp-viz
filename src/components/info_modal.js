@@ -16,15 +16,14 @@ class InfoModal extends Component {
             and median market price of <b>Tax Class 1</b> residential properties.
             <br></br>
             <br></br>
-            minimum ETR: 0.18% in Red Hook
-            <br></br>
-            maximum ETR: 1.27% in Flatiron District
-            <br></br>
-            <br></br>
             All the calculated tax rates are assigned an index and mapped to eight different shades:
             <Legend color_mapping={this.props.color_mapping} />
-            where the darker the shade, the higher the median ETR of the neighborhood. Select a neighborhood to see its
-            name and the values I described here.
+            where the darker the shade, the higher the median ETR of the neighborhood. Select a neighborhood to see the
+            name and attributes.
+            <br></br>
+            <br></br>
+            If you are using a mouse/trackpad, you can click a neighborhood to persist a popup to allow for comparisons.
+            You can scroll in on the map if the first popup is blocking the neighborhood you want to compare with.
             <br></br>
             <br></br>
             <a href="https://github.com/honggyu420/nyc-prop-tax/blob/master/README.md">
