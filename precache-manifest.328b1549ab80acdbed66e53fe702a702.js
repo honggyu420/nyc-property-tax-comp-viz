@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a18245abccd19526b47929dadeefa428",
+    "revision": "aba8b78fcb4bdadc3ed90729e72db6ea",
     "url": "/nyc-prop-tax/index.html"
   },
   {
-    "revision": "d204802b068caecc8263",
+    "revision": "5d0ba7bfa086859d7f3e",
     "url": "/nyc-prop-tax/static/css/main.29b9eda0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nyc-prop-tax/static/js/2.29392024.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d204802b068caecc8263",
-    "url": "/nyc-prop-tax/static/js/main.34219503.chunk.js"
+    "revision": "5d0ba7bfa086859d7f3e",
+    "url": "/nyc-prop-tax/static/js/main.6bd87e68.chunk.js"
   },
   {
     "revision": "f5cefd2fe76257d85b37",
