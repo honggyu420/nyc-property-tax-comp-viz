@@ -7,12 +7,15 @@ const neighborhood_data = require("../data/neighborhoods_reddit.json");
 const neighborhood_tax_data = require("../data/neighborhoods_med_tax.json");
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
-const calculateETRIndex = (etr) => {
+const calculateETRIndex = (etr, property_count) => {
   // max etr of .128 would put the data into 8 buckets for color mapping
   let etr_index = Math.ceil(etr * 10000);
   etr_index = Math.floor(etr_index / 12) - 1;
   if (etr_index > 7) {
     etr_index = 7;
+  }
+  if (property_count < 10) {
+    etr_index = null;
   }
 
   return etr_index;
@@ -37,16 +40,18 @@ const preprocessNeighborhood = (neighborhood_data, neighborhood_tax_data) => {
     if (tax_data && tax_data.length) {
       tax_data = tax_data[0];
       feature.properties = { ...feature.properties, ...tax_data };
-      feature.properties.etr_index = calculateETRIndex(feature.properties.med_etr);
+      feature.properties.etr_index = calculateETRIndex(feature.properties.med_etr, feature.properties.property_count);
+    } else {
+      feature = false;
     }
 
     return feature;
   });
 
-  // removes staten island polygons
-  enriched_neighborhood_data.features = enriched_neighborhood_data.features.filter(
-    (feature) => feature.properties.boro !== undefined
-  );
+  // filter out staten island
+  enriched_neighborhood_data.features = enriched_neighborhood_data.features.filter((feature) => {
+    return feature.properties.property_count;
+  });
 
   return enriched_neighborhood_data;
 };
@@ -169,11 +174,17 @@ class Map extends Component {
     );
 
     const showPopup = (e) => {
-      let { Name, med_etr, med_mkt_val } = e.features[0].properties;
-      let med_etr_formatted = (med_etr * 100).toFixed(2) + "%";
-      let med_mkt_val_formatted = FormatPriceAbbrev(med_mkt_val);
-      let tax_bill = numWithCommas(med_mkt_val * med_etr);
-      let html = `<b>${Name}</b><br>Median ETR: <b>${med_etr_formatted}</b><br>Median price: ${med_mkt_val_formatted}<br>➥Tax Bill: ${tax_bill}`;
+      let { Name, med_etr, med_mkt_val, property_count } = e.features[0].properties;
+      let html = `<b>${Name}</b><br>`;
+
+      if (property_count < 10) {
+        html += `There are less than ten<br>Class 1 properties here.`;
+      } else {
+        let med_etr_formatted = (med_etr * 100).toFixed(2) + "%";
+        let med_mkt_val_formatted = FormatPriceAbbrev(med_mkt_val);
+        let tax_bill = numWithCommas(med_mkt_val * med_etr);
+        html += `Median ETR: <b>${med_etr_formatted}</b><br>Median price: ${med_mkt_val_formatted}<br>➥Tax Bill: ${tax_bill}`;
+      }
       if (!popup_1_open || window.USER_IS_TOUCHING) {
         popup_1.setLngLat(e.lngLat).setHTML(html).addTo(map);
       } else {
@@ -197,6 +208,7 @@ class Map extends Component {
     });
 
     map.on("click", "neighborhood-polygons", (e) => {
+      console.log(e.features[0].properties);
       showPopup(e);
       popup_1_open = true;
     });
