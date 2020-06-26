@@ -1,1674 +1,1618 @@
 [
   {
-    "boro": 1,
     "neighborhood": "Flatiron District",
-    "med_mkt_val": 4201000,
+    "med_mkt_val": 4201000.0,
     "med_etr_no_exemption": 0.0127002,
     "med_etr": 0.0127002,
-    "property_count": 2
+    "med_tax_bill": 53353.5402,
+    "property_count": 1
   },
   {
-    "boro": 3,
-    "neighborhood": "Lindenwood",
-    "med_mkt_val": 673000,
-    "med_etr_no_exemption": 0.011780686229618623,
-    "med_etr": 0.011780686229618623,
-    "property_count": 2
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Pelham Parkway",
-    "med_mkt_val": 662500,
-    "med_etr_no_exemption": 0.010802823113661701,
-    "med_etr": 0.010492295250374636,
-    "property_count": 372
-  },
-  {
-    "boro": 4,
     "neighborhood": "Floral Park",
-    "med_mkt_val": 691000,
-    "med_etr_no_exemption": 0.010944851786159955,
-    "med_etr": 0.01046667731909486,
-    "property_count": 6830
+    "med_mkt_val": 691000.0,
+    "med_etr_no_exemption": 0.0111417122,
+    "med_etr": 0.0106776458,
+    "med_tax_bill": 7526.56186,
+    "property_count": 3415
   },
   {
-    "boro": 2,
+    "neighborhood": "Pelham Parkway",
+    "med_mkt_val": 662500.0,
+    "med_etr_no_exemption": 0.0105369674,
+    "med_etr": 0.0102401454,
+    "med_tax_bill": 6695.227935,
+    "property_count": 186
+  },
+  {
     "neighborhood": "City Island",
-    "med_mkt_val": 597000,
-    "med_etr_no_exemption": 0.010808513109408873,
-    "med_etr": 0.010276783165148101,
-    "property_count": 2254
+    "med_mkt_val": 597000.0,
+    "med_etr_no_exemption": 0.0107292206,
+    "med_etr": 0.0102257574,
+    "med_tax_bill": 6137.37165,
+    "property_count": 1127
   },
   {
-    "boro": 2,
-    "neighborhood": "Pelham Bay",
-    "med_mkt_val": 640000,
-    "med_etr_no_exemption": 0.010524066356954517,
-    "med_etr": 0.010116153512831197,
-    "property_count": 2670
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Edenwald",
-    "med_mkt_val": 576000,
-    "med_etr_no_exemption": 0.010482507124183006,
-    "med_etr": 0.010101975535714286,
-    "property_count": 4630
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Cambria Heights",
-    "med_mkt_val": 524000,
-    "med_etr_no_exemption": 0.010602298401420959,
-    "med_etr": 0.01004997302288823,
-    "property_count": 9336
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Howard Beach",
-    "med_mkt_val": 762000,
-    "med_etr_no_exemption": 0.010633912399963516,
-    "med_etr": 0.010047009079584251,
-    "property_count": 4844
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Baychester",
-    "med_mkt_val": 539000,
-    "med_etr_no_exemption": 0.010386848870694453,
-    "med_etr": 0.010026948740098574,
-    "property_count": 5018
-  },
-  {
-    "boro": 4,
     "neighborhood": "Holliswood",
-    "med_mkt_val": 945000,
-    "med_etr_no_exemption": 0.010347196807429255,
-    "med_etr": 0.009973289139799744,
-    "property_count": 1820
+    "med_mkt_val": 945000.0,
+    "med_etr_no_exemption": 0.0105809026,
+    "med_etr": 0.0101471512,
+    "med_tax_bill": 9583.253415,
+    "property_count": 910
   },
   {
-    "boro": 2,
-    "neighborhood": "Country Club",
-    "med_mkt_val": 687000,
-    "med_etr_no_exemption": 0.010477273501849568,
-    "med_etr": 0.009972466778761062,
-    "property_count": 3689
+    "neighborhood": "Howard Beach",
+    "med_mkt_val": 762000.0,
+    "med_etr_no_exemption": 0.0106899066,
+    "med_etr": 0.010106261,
+    "med_tax_bill": 7662.454,
+    "property_count": 2422
   },
   {
-    "boro": 4,
     "neighborhood": "Laurelton",
-    "med_mkt_val": 526000,
-    "med_etr_no_exemption": 0.010468411871244095,
-    "med_etr": 0.009949513913021553,
-    "property_count": 12348
+    "med_mkt_val": 526000.0,
+    "med_etr_no_exemption": 0.010593851,
+    "med_etr": 0.0100917527,
+    "med_tax_bill": 5407.74516,
+    "property_count": 6174
   },
   {
-    "boro": 4,
+    "neighborhood": "Cambria Heights",
+    "med_mkt_val": 524000.0,
+    "med_etr_no_exemption": 0.0105966926,
+    "med_etr": 0.0100716355,
+    "med_tax_bill": 5373.03128,
+    "property_count": 4668
+  },
+  {
     "neighborhood": "Glen Oaks",
-    "med_mkt_val": 734500,
-    "med_etr_no_exemption": 0.010393637130216557,
-    "med_etr": 0.009925670603485565,
-    "property_count": 1420
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Castle Hill",
-    "med_mkt_val": 579000,
-    "med_etr_no_exemption": 0.010357444660194174,
-    "med_etr": 0.009896040796460177,
-    "property_count": 2276
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Woodlawn Heights",
-    "med_mkt_val": 677000,
-    "med_etr_no_exemption": 0.010250086793223655,
-    "med_etr": 0.009840143028732576,
-    "property_count": 2090
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Pelham Gardens",
-    "med_mkt_val": 619000,
-    "med_etr_no_exemption": 0.010218985193869006,
-    "med_etr": 0.009815741714511755,
-    "property_count": 6254
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Wakefield",
-    "med_mkt_val": 543000,
-    "med_etr_no_exemption": 0.01020018733974359,
-    "med_etr": 0.00981562354978355,
-    "property_count": 12699
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Bergen Beach",
-    "med_mkt_val": 789000,
-    "med_etr_no_exemption": 0.010221044945015866,
-    "med_etr": 0.009814378294180325,
-    "property_count": 4928
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Throgs Neck",
-    "med_mkt_val": 592000,
-    "med_etr_no_exemption": 0.010291717486112021,
-    "med_etr": 0.009813368274204311,
-    "property_count": 10824
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Eastchester",
-    "med_mkt_val": 559000,
-    "med_etr_no_exemption": 0.01030843225017702,
-    "med_etr": 0.009801999990299126,
-    "property_count": 1436
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Bellerose Manor",
-    "med_mkt_val": 654000,
-    "med_etr_no_exemption": 0.01017738554382349,
-    "med_etr": 0.009735578227424749,
-    "property_count": 10490
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Sutton Place",
-    "med_mkt_val": 6961000,
-    "med_etr_no_exemption": 0.00969185887814099,
-    "med_etr": 0.00969185887814099,
-    "property_count": 54
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Jamaica Estates",
-    "med_mkt_val": 1087000,
-    "med_etr_no_exemption": 0.009992470946065429,
-    "med_etr": 0.009682831295546559,
-    "property_count": 4451
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Morris Park",
-    "med_mkt_val": 644000,
-    "med_etr_no_exemption": 0.010129163606879607,
-    "med_etr": 0.009673334009933567,
-    "property_count": 6514
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Rosedale",
-    "med_mkt_val": 550000,
-    "med_etr_no_exemption": 0.010065874078711986,
-    "med_etr": 0.009660074152046784,
-    "property_count": 9337
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Riverdale",
-    "med_mkt_val": 1825000,
-    "med_etr_no_exemption": 0.009754927127544409,
-    "med_etr": 0.009643298087428781,
+    "med_mkt_val": 734500.0,
+    "med_etr_no_exemption": 0.0103936371,
+    "med_etr": 0.0099877987,
+    "med_tax_bill": 7486.55623,
     "property_count": 710
   },
   {
-    "boro": 2,
-    "neighborhood": "Schuylerville",
-    "med_mkt_val": 605000,
-    "med_etr_no_exemption": 0.010093984348085635,
-    "med_etr": 0.009632403245920566,
-    "property_count": 3938
+    "neighborhood": "Bellerose Manor",
+    "med_mkt_val": 654000.0,
+    "med_etr_no_exemption": 0.0104017069,
+    "med_etr": 0.0099800882,
+    "med_tax_bill": 6587.38207,
+    "property_count": 5245
   },
   {
-    "boro": 4,
-    "neighborhood": "Bay Terrace",
-    "med_mkt_val": 1375000,
-    "med_etr_no_exemption": 0.009808460769355043,
-    "med_etr": 0.009604260208025718,
-    "property_count": 1974
+    "neighborhood": "Edenwald",
+    "med_mkt_val": 576000.0,
+    "med_etr_no_exemption": 0.0103234189,
+    "med_etr": 0.0099560198,
+    "med_tax_bill": 5638.8888,
+    "property_count": 2315
   },
   {
-    "boro": 4,
+    "neighborhood": "Sutton Place",
+    "med_mkt_val": 6961000.0,
+    "med_etr_no_exemption": 0.0098898095,
+    "med_etr": 0.0098898095,
+    "med_tax_bill": 67782.23742,
+    "property_count": 27
+  },
+  {
     "neighborhood": "Hollis Hills",
-    "med_mkt_val": 1003000,
-    "med_etr_no_exemption": 0.009910246241545894,
-    "med_etr": 0.009596454088983051,
-    "property_count": 2907
+    "med_mkt_val": 1003000.0,
+    "med_etr_no_exemption": 0.01018257,
+    "med_etr": 0.0098865195,
+    "med_tax_bill": 9979.922995,
+    "property_count": 1454
   },
   {
-    "boro": 2,
-    "neighborhood": "Allerton",
-    "med_mkt_val": 608000,
-    "med_etr_no_exemption": 0.009960389794994116,
-    "med_etr": 0.009589364494382023,
-    "property_count": 5334
+    "neighborhood": "Pelham Bay",
+    "med_mkt_val": 640000.0,
+    "med_etr_no_exemption": 0.01019833,
+    "med_etr": 0.0098620012,
+    "med_tax_bill": 6327.66298,
+    "property_count": 1335
   },
   {
-    "boro": 3,
-    "neighborhood": "Canarsie",
-    "med_mkt_val": 636000,
-    "med_etr_no_exemption": 0.009926685641838353,
-    "med_etr": 0.009587787827045106,
-    "property_count": 23842
+    "neighborhood": "Country Club",
+    "med_mkt_val": 687000.0,
+    "med_etr_no_exemption": 0.0102832456,
+    "med_etr": 0.0098010706,
+    "med_tax_bill": 6736.18608,
+    "property_count": 1845
   },
   {
-    "boro": 3,
+    "neighborhood": "Jamaica Estates",
+    "med_mkt_val": 1087500.0,
+    "med_etr_no_exemption": 0.0101101239,
+    "med_etr": 0.009797504,
+    "med_tax_bill": 10784.904005,
+    "property_count": 2226
+  },
+  {
+    "neighborhood": "Baychester",
+    "med_mkt_val": 539000.0,
+    "med_etr_no_exemption": 0.0101880771,
+    "med_etr": 0.0097853031,
+    "med_tax_bill": 5312.599495,
+    "property_count": 2510
+  },
+  {
+    "neighborhood": "Bay Terrace",
+    "med_mkt_val": 1375000.0,
+    "med_etr_no_exemption": 0.0099653357,
+    "med_etr": 0.009774027,
+    "med_tax_bill": 13276.36574,
+    "property_count": 987
+  },
+  {
+    "neighborhood": "Rosedale",
+    "med_mkt_val": 550000.0,
+    "med_etr_no_exemption": 0.0101711321,
+    "med_etr": 0.0097426332,
+    "med_tax_bill": 5599.30651,
+    "property_count": 4669
+  },
+  {
+    "neighborhood": "Throgs Neck",
+    "med_mkt_val": 592000.0,
+    "med_etr_no_exemption": 0.0101628589,
+    "med_etr": 0.0097056779,
+    "med_tax_bill": 5761.23406,
+    "property_count": 5412
+  },
+  {
+    "neighborhood": "Wakefield",
+    "med_mkt_val": 543000.0,
+    "med_etr_no_exemption": 0.0100706073,
+    "med_etr": 0.0097006812,
+    "med_tax_bill": 5286.45825,
+    "property_count": 6351
+  },
+  {
+    "neighborhood": "Eastchester",
+    "med_mkt_val": 559500.0,
+    "med_etr_no_exemption": 0.0101338914,
+    "med_etr": 0.0096938561,
+    "med_tax_bill": 5401.8184,
+    "property_count": 722
+  },
+  {
+    "neighborhood": "Pelham Gardens",
+    "med_mkt_val": 619000.0,
+    "med_etr_no_exemption": 0.0100581344,
+    "med_etr": 0.0096788893,
+    "med_tax_bill": 6072.8123,
+    "property_count": 3127
+  },
+  {
+    "neighborhood": "Bergen Beach",
+    "med_mkt_val": 789000.0,
+    "med_etr_no_exemption": 0.0100540091,
+    "med_etr": 0.0096525681,
+    "med_tax_bill": 7732.09343,
+    "property_count": 2465
+  },
+  {
+    "neighborhood": "Riverdale",
+    "med_mkt_val": 1825000.0,
+    "med_etr_no_exemption": 0.0097485036,
+    "med_etr": 0.009650334,
+    "med_tax_bill": 17293.439,
+    "property_count": 355
+  },
+  {
+    "neighborhood": "Castle Hill",
+    "med_mkt_val": 579000.0,
+    "med_etr_no_exemption": 0.0101307415,
+    "med_etr": 0.0096474415,
+    "med_tax_bill": 5609.995845,
+    "property_count": 1138
+  },
+  {
+    "neighborhood": "Woodlawn Heights",
+    "med_mkt_val": 677000.0,
+    "med_etr_no_exemption": 0.0099716414,
+    "med_etr": 0.009623059,
+    "med_tax_bill": 6347.34829,
+    "property_count": 1045
+  },
+  {
+    "neighborhood": "Morris Park",
+    "med_mkt_val": 644000.0,
+    "med_etr_no_exemption": 0.0099957873,
+    "med_etr": 0.0095828782,
+    "med_tax_bill": 6153.67024,
+    "property_count": 3257
+  },
+  {
     "neighborhood": "Flatlands",
-    "med_mkt_val": 623000,
-    "med_etr_no_exemption": 0.010002281161829066,
-    "med_etr": 0.009578534094366292,
-    "property_count": 19052
+    "med_mkt_val": 623000.0,
+    "med_etr_no_exemption": 0.0099266468,
+    "med_etr": 0.0095342491,
+    "med_tax_bill": 5982.64088,
+    "property_count": 9526
   },
   {
-    "boro": 3,
-    "neighborhood": "Mill Basin",
-    "med_mkt_val": 909000,
-    "med_etr_no_exemption": 0.00992100038961039,
-    "med_etr": 0.009565087285847935,
-    "property_count": 5786
+    "neighborhood": "Canarsie",
+    "med_mkt_val": 636000.0,
+    "med_etr_no_exemption": 0.00985341,
+    "med_etr": 0.0095088677,
+    "med_tax_bill": 5913.21312,
+    "property_count": 11921
   },
   {
-    "boro": 4,
-    "neighborhood": "Bayswater",
-    "med_mkt_val": 575000,
-    "med_etr_no_exemption": 0.010007053564868928,
-    "med_etr": 0.009553582484024043,
-    "property_count": 1888
-  },
-  {
-    "boro": 2,
     "neighborhood": "North Riverdale",
-    "med_mkt_val": 911000,
-    "med_etr_no_exemption": 0.009793185981449423,
-    "med_etr": 0.00953125546141511,
-    "property_count": 2316
+    "med_mkt_val": 911000.0,
+    "med_etr_no_exemption": 0.0097319342,
+    "med_etr": 0.0095041985,
+    "med_tax_bill": 8916.59875,
+    "property_count": 1158
   },
   {
-    "boro": 2,
-    "neighborhood": "Fieldston",
-    "med_mkt_val": 1817000,
-    "med_etr_no_exemption": 0.009653308198380567,
-    "med_etr": 0.009524422354910913,
-    "property_count": 894
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Breezy Point",
-    "med_mkt_val": 1067500,
-    "med_etr_no_exemption": 0.00947853585361323,
-    "med_etr": 0.00947853585361323,
-    "property_count": 48
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Co-op City",
-    "med_mkt_val": 660000,
-    "med_etr_no_exemption": 0.009600859648080716,
-    "med_etr": 0.009386337690120216,
-    "property_count": 134
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Williamsbridge",
-    "med_mkt_val": 587000,
-    "med_etr_no_exemption": 0.009677211781609196,
-    "med_etr": 0.009367733281553398,
-    "property_count": 7373
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Hollis",
-    "med_mkt_val": 563000,
-    "med_etr_no_exemption": 0.009749395688235294,
-    "med_etr": 0.00932029807803597,
-    "property_count": 7214
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Brookville",
-    "med_mkt_val": 594000,
-    "med_etr_no_exemption": 0.00967077118132224,
-    "med_etr": 0.009265138020515918,
-    "property_count": 8092
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Soundview",
-    "med_mkt_val": 656000,
-    "med_etr_no_exemption": 0.009603061107491857,
-    "med_etr": 0.009245602452882484,
-    "property_count": 6218
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Parkchester",
-    "med_mkt_val": 656000,
-    "med_etr_no_exemption": 0.009580415909763315,
-    "med_etr": 0.009245374225708501,
-    "property_count": 1240
-  },
-  {
-    "boro": 4,
     "neighborhood": "Little Neck",
-    "med_mkt_val": 1052000,
-    "med_etr_no_exemption": 0.00955873891106973,
-    "med_etr": 0.009224685641532254,
-    "property_count": 9740
+    "med_mkt_val": 1052000.0,
+    "med_etr_no_exemption": 0.0098452869,
+    "med_etr": 0.0094844263,
+    "med_tax_bill": 10010.72098,
+    "property_count": 4870
   },
   {
-    "boro": 2,
-    "neighborhood": "Olinville",
-    "med_mkt_val": 651000,
-    "med_etr_no_exemption": 0.0095259094734419,
-    "med_etr": 0.009221869181010409,
-    "property_count": 1320
+    "neighborhood": "Schuylerville",
+    "med_mkt_val": 605000.0,
+    "med_etr_no_exemption": 0.0098562236,
+    "med_etr": 0.009472514,
+    "med_tax_bill": 5760.81072,
+    "property_count": 1969
   },
   {
-    "boro": 4,
-    "neighborhood": "Lindenwood",
-    "med_mkt_val": 874500,
-    "med_etr_no_exemption": 0.0094881331602561,
-    "med_etr": 0.009193043165775402,
-    "property_count": 1268
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Westchester Square",
-    "med_mkt_val": 653000,
-    "med_etr_no_exemption": 0.009543977902747455,
-    "med_etr": 0.009184196526946107,
-    "property_count": 2202
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Unionport",
-    "med_mkt_val": 620000,
-    "med_etr_no_exemption": 0.009596832538790824,
-    "med_etr": 0.009176556588504504,
-    "property_count": 4408
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Belle Harbor",
-    "med_mkt_val": 944000,
-    "med_etr_no_exemption": 0.009497162522222222,
-    "med_etr": 0.009167274660957583,
-    "property_count": 3300
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Van Nest",
-    "med_mkt_val": 626500,
-    "med_etr_no_exemption": 0.009534438808131748,
-    "med_etr": 0.009160954319730533,
-    "property_count": 2848
-  },
-  {
-    "boro": 4,
     "neighborhood": "Fresh Meadows",
-    "med_mkt_val": 970000,
-    "med_etr_no_exemption": 0.009533700216748769,
-    "med_etr": 0.009159593477011493,
-    "property_count": 2664
+    "med_mkt_val": 970000.0,
+    "med_etr_no_exemption": 0.0098139506,
+    "med_etr": 0.0094678338,
+    "med_tax_bill": 9520.9166,
+    "property_count": 1332
   },
   {
-    "boro": 4,
-    "neighborhood": "Queens Village",
-    "med_mkt_val": 563000,
-    "med_etr_no_exemption": 0.00954467296116505,
-    "med_etr": 0.009134294009900991,
-    "property_count": 22285
+    "neighborhood": "Hollis",
+    "med_mkt_val": 563000.0,
+    "med_etr_no_exemption": 0.0098442566,
+    "med_etr": 0.0094470539,
+    "med_tax_bill": 5303.286015,
+    "property_count": 3610
   },
   {
-    "boro": 4,
-    "neighborhood": "St. Albans",
-    "med_mkt_val": 533000,
-    "med_etr_no_exemption": 0.00954606020797227,
-    "med_etr": 0.009112152874763168,
-    "property_count": 26774
+    "neighborhood": "Bayswater",
+    "med_mkt_val": 575000.0,
+    "med_etr_no_exemption": 0.0098805504,
+    "med_etr": 0.0094367941,
+    "med_tax_bill": 5424.04375,
+    "property_count": 944
   },
   {
-    "boro": 4,
-    "neighborhood": "Old Howard Beach",
-    "med_mkt_val": 747000,
-    "med_etr_no_exemption": 0.009585056603773585,
-    "med_etr": 0.009057052146164894,
-    "property_count": 3044
+    "neighborhood": "Allerton",
+    "med_mkt_val": 608000.0,
+    "med_etr_no_exemption": 0.0098249263,
+    "med_etr": 0.009432042,
+    "med_tax_bill": 5765.25579,
+    "property_count": 2667
   },
   {
-    "boro": 4,
-    "neighborhood": "Utopia",
-    "med_mkt_val": 948000,
-    "med_etr_no_exemption": 0.009342314303405572,
-    "med_etr": 0.009024260523385301,
-    "property_count": 3307
+    "neighborhood": "Mill Basin",
+    "med_mkt_val": 909000.0,
+    "med_etr_no_exemption": 0.0096828077,
+    "med_etr": 0.00935512,
+    "med_tax_bill": 8292.80726,
+    "property_count": 2893
   },
   {
-    "boro": 4,
-    "neighborhood": "South Richmond Hill",
-    "med_mkt_val": 645000,
-    "med_etr_no_exemption": 0.00933993875,
-    "med_etr": 0.009016085681381958,
-    "property_count": 8037
+    "neighborhood": "Fieldston",
+    "med_mkt_val": 1817000.0,
+    "med_etr_no_exemption": 0.0095053329,
+    "med_etr": 0.0093501098,
+    "med_tax_bill": 17263.8052,
+    "property_count": 447
   },
   {
-    "boro": 4,
-    "neighborhood": "Neponsit",
-    "med_mkt_val": 1162000,
-    "med_etr_no_exemption": 0.00927301548289117,
-    "med_etr": 0.009012596771458532,
-    "property_count": 1212
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Springfield Gardens",
-    "med_mkt_val": 571000,
-    "med_etr_no_exemption": 0.009291408427350427,
-    "med_etr": 0.008859463188405798,
-    "property_count": 5493
-  },
-  {
-    "boro": 4,
-    "neighborhood": "South Ozone Park",
-    "med_mkt_val": 595000,
-    "med_etr_no_exemption": 0.009171757105831534,
-    "med_etr": 0.008827020418344156,
-    "property_count": 28618
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Norwood",
-    "med_mkt_val": 696000,
-    "med_etr_no_exemption": 0.009057561818427887,
-    "med_etr": 0.008759663593969172,
-    "property_count": 914
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Far Rockaway",
-    "med_mkt_val": 580000,
-    "med_etr_no_exemption": 0.009138520295202951,
-    "med_etr": 0.008728892630272952,
-    "property_count": 7441
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Richmond Hill",
-    "med_mkt_val": 736000,
-    "med_etr_no_exemption": 0.009062336182081306,
-    "med_etr": 0.008718803147472944,
-    "property_count": 7520
-  },
-  {
-    "boro": 3,
-    "neighborhood": "The Hole",
-    "med_mkt_val": 717000,
-    "med_etr_no_exemption": 0.00868944441513813,
-    "med_etr": 0.008672292247422893,
-    "property_count": 58
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Briarwood",
-    "med_mkt_val": 800000,
-    "med_etr_no_exemption": 0.008959681260893994,
-    "med_etr": 0.008628769134605708,
-    "property_count": 3966
-  },
-  {
-    "boro": 2,
-    "neighborhood": "West Farms",
-    "med_mkt_val": 659500,
-    "med_etr_no_exemption": 0.009587908298245615,
-    "med_etr": 0.008612731837398375,
-    "property_count": 356
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Oakland Gardens",
-    "med_mkt_val": 1015000,
-    "med_etr_no_exemption": 0.00898550625638335,
-    "med_etr": 0.008602022128059715,
-    "property_count": 3110
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Ozone Park",
-    "med_mkt_val": 662000,
-    "med_etr_no_exemption": 0.00896230850063059,
-    "med_etr": 0.008594370254397958,
-    "property_count": 14804
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Gerritsen Beach",
-    "med_mkt_val": 500000,
-    "med_etr_no_exemption": 0.009252552655086848,
-    "med_etr": 0.008591523399433428,
-    "property_count": 3789
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Murray Hill",
-    "med_mkt_val": 5173000,
-    "med_etr_no_exemption": 0.00873510777908245,
-    "med_etr": 0.008590397725192916,
-    "property_count": 138
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Hillcrest",
-    "med_mkt_val": 821000,
-    "med_etr_no_exemption": 0.008944998353954927,
-    "med_etr": 0.008586645023654863,
-    "property_count": 5388
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Rochdale",
-    "med_mkt_val": 719500,
-    "med_etr_no_exemption": 0.008874097715915005,
-    "med_etr": 0.008558428021550227,
+    "neighborhood": "Breezy Point",
+    "med_mkt_val": 1067500.0,
+    "med_etr_no_exemption": 0.0094525803,
+    "med_etr": 0.009312534,
+    "med_tax_bill": 10590.06177,
     "property_count": 24
   },
   {
-    "boro": 4,
-    "neighborhood": "Whitestone",
-    "med_mkt_val": 1000000,
-    "med_etr_no_exemption": 0.00895336278405712,
-    "med_etr": 0.008557061500247905,
-    "property_count": 16402
+    "neighborhood": "Co-op City",
+    "med_mkt_val": 660000.0,
+    "med_etr_no_exemption": 0.0095036884,
+    "med_etr": 0.0093024123,
+    "med_tax_bill": 6221.61631,
+    "property_count": 67
   },
   {
-    "boro": 4,
-    "neighborhood": "Bayside",
-    "med_mkt_val": 977000,
-    "med_etr_no_exemption": 0.00892185526082131,
-    "med_etr": 0.008553494627659574,
-    "property_count": 22543
+    "neighborhood": "Williamsbridge",
+    "med_mkt_val": 587000.0,
+    "med_etr_no_exemption": 0.0096020659,
+    "med_etr": 0.0092982793,
+    "med_tax_bill": 5395.04496,
+    "property_count": 3689
   },
   {
-    "boro": 2,
-    "neighborhood": "Kingsbridge",
-    "med_mkt_val": 834000,
-    "med_etr_no_exemption": 0.008869381872213967,
-    "med_etr": 0.00855304389920449,
-    "property_count": 808
+    "neighborhood": "Utopia",
+    "med_mkt_val": 948500.0,
+    "med_etr_no_exemption": 0.009603587,
+    "med_etr": 0.0092835833,
+    "med_tax_bill": 9007.82852,
+    "property_count": 1654
   },
   {
-    "boro": 3,
-    "neighborhood": "East Flatbush",
-    "med_mkt_val": 661000,
-    "med_etr_no_exemption": 0.008984672311112801,
-    "med_etr": 0.008538578734179302,
-    "property_count": 31814
+    "neighborhood": "Brookville",
+    "med_mkt_val": 594000.0,
+    "med_etr_no_exemption": 0.009631615,
+    "med_etr": 0.009261654,
+    "med_tax_bill": 5478.65461,
+    "property_count": 4048
   },
   {
-    "boro": 3,
-    "neighborhood": "Ozone Park",
-    "med_mkt_val": 720000,
-    "med_etr_no_exemption": 0.008750549248605887,
-    "med_etr": 0.008529878005943094,
-    "property_count": 370
+    "neighborhood": "Queens Village",
+    "med_mkt_val": 563000.0,
+    "med_etr_no_exemption": 0.0096487588,
+    "med_etr": 0.0092527573,
+    "med_tax_bill": 5266.3496,
+    "property_count": 11144
   },
   {
-    "boro": 4,
-    "neighborhood": "Kew Gardens",
-    "med_mkt_val": 853000,
-    "med_etr_no_exemption": 0.008835571137953021,
-    "med_etr": 0.008527762822882288,
-    "property_count": 3320
+    "neighborhood": "Belle Harbor",
+    "med_mkt_val": 944000.0,
+    "med_etr_no_exemption": 0.0095131555,
+    "med_etr": 0.0091761833,
+    "med_tax_bill": 8760.492125,
+    "property_count": 1650
   },
   {
-    "boro": 2,
-    "neighborhood": "Classon Point",
-    "med_mkt_val": 576000,
-    "med_etr_no_exemption": 0.008947892105025744,
-    "med_etr": 0.008519512687225846,
-    "property_count": 2772
+    "neighborhood": "St. Albans",
+    "med_mkt_val": 533000.0,
+    "med_etr_no_exemption": 0.0095896293,
+    "med_etr": 0.0091565326,
+    "med_tax_bill": 4874.7601,
+    "property_count": 13387
   },
   {
-    "boro": 4,
-    "neighborhood": "Auberndale",
-    "med_mkt_val": 947000,
-    "med_etr_no_exemption": 0.008883771170496269,
-    "med_etr": 0.00851747436793017,
-    "property_count": 8422
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Manhattan Beach",
-    "med_mkt_val": 1504000,
-    "med_etr_no_exemption": 0.008744306362236835,
-    "med_etr": 0.00850555653902937,
-    "property_count": 2488
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Jamaica Hills",
-    "med_mkt_val": 852000,
-    "med_etr_no_exemption": 0.008784856263262851,
-    "med_etr": 0.008503107804625647,
-    "property_count": 2670
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Marine Park",
-    "med_mkt_val": 730000,
-    "med_etr_no_exemption": 0.008871745705000373,
-    "med_etr": 0.008491412790697674,
-    "property_count": 12146
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Kingsbridge Heights",
-    "med_mkt_val": 700000,
-    "med_etr_no_exemption": 0.008798607027027026,
-    "med_etr": 0.008463640746268656,
-    "property_count": 1393
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Rockaway Park",
-    "med_mkt_val": 757000,
-    "med_etr_no_exemption": 0.00870331617993075,
-    "med_etr": 0.008448342178160822,
-    "property_count": 1660
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Rockaway Beach",
-    "med_mkt_val": 523000,
-    "med_etr_no_exemption": 0.00904394865051903,
-    "med_etr": 0.008338125227963527,
-    "property_count": 1497
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Sea Gate",
-    "med_mkt_val": 791000,
-    "med_etr_no_exemption": 0.008598111385316484,
-    "med_etr": 0.00827596698568744,
-    "property_count": 1608
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Kew Garden Hills",
-    "med_mkt_val": 887000,
-    "med_etr_no_exemption": 0.008505201338547277,
-    "med_etr": 0.008212768254621413,
-    "property_count": 7134
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Marble Hill",
-    "med_mkt_val": 677000,
-    "med_etr_no_exemption": 0.008468657264336954,
-    "med_etr": 0.00818670109562869,
-    "property_count": 292
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Rego Park",
-    "med_mkt_val": 950000,
-    "med_etr_no_exemption": 0.008532872967877095,
-    "med_etr": 0.008185951767672839,
-    "property_count": 5596
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Woodhaven",
-    "med_mkt_val": 687000,
-    "med_etr_no_exemption": 0.00850492476655558,
-    "med_etr": 0.008183315128577989,
-    "property_count": 11796
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Murray Hill",
-    "med_mkt_val": 1011000,
-    "med_etr_no_exemption": 0.00843873114103029,
-    "med_etr": 0.00811773674330784,
-    "property_count": 13216
-  },
-  {
-    "boro": 2,
-    "neighborhood": "East Morrisania",
-    "med_mkt_val": 602000,
-    "med_etr_no_exemption": 0.008839913220338983,
-    "med_etr": 0.008107384987308869,
-    "property_count": 2634
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Jackson Heights",
-    "med_mkt_val": 935000,
-    "med_etr_no_exemption": 0.008395167299964267,
-    "med_etr": 0.00807625272579943,
-    "property_count": 13898
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Middle Village",
-    "med_mkt_val": 830000,
-    "med_etr_no_exemption": 0.008504031008610085,
-    "med_etr": 0.008062041204556615,
-    "property_count": 13746
-  },
-  {
-    "boro": 1,
     "neighborhood": "Inwood",
-    "med_mkt_val": 816000,
-    "med_etr_no_exemption": 0.008574951787542662,
-    "med_etr": 0.008057505888694336,
-    "property_count": 58
+    "med_mkt_val": 816000.0,
+    "med_etr_no_exemption": 0.0091315353,
+    "med_etr": 0.0091315353,
+    "med_tax_bill": 7923.01977,
+    "property_count": 29
+  },
+  {
+    "neighborhood": "Old Howard Beach",
+    "med_mkt_val": 747000.0,
+    "med_etr_no_exemption": 0.0096193204,
+    "med_etr": 0.0090667983,
+    "med_tax_bill": 6522.82272,
+    "property_count": 1522
+  },
+  {
+    "neighborhood": "Olinville",
+    "med_mkt_val": 651000.0,
+    "med_etr_no_exemption": 0.0093434025,
+    "med_etr": 0.0090500702,
+    "med_tax_bill": 5765.46746,
+    "property_count": 660
+  },
+  {
+    "neighborhood": "South Richmond Hill",
+    "med_mkt_val": 645000.0,
+    "med_etr_no_exemption": 0.0093076907,
+    "med_etr": 0.0090258038,
+    "med_tax_bill": 5688.20791,
+    "property_count": 4019
+  },
+  {
+    "neighborhood": "Westchester Square",
+    "med_mkt_val": 653000.0,
+    "med_etr_no_exemption": 0.0093371147,
+    "med_etr": 0.0090185893,
+    "med_tax_bill": 5794.46625,
+    "property_count": 1101
+  },
+  {
+    "neighborhood": "Lindenwood",
+    "med_mkt_val": 873000.0,
+    "med_etr_no_exemption": 0.0091546666,
+    "med_etr": 0.0090110266,
+    "med_tax_bill": 7787.76264,
+    "property_count": 635
+  },
+  {
+    "neighborhood": "Springfield Gardens",
+    "med_mkt_val": 571000.0,
+    "med_etr_no_exemption": 0.0093784704,
+    "med_etr": 0.0090056489,
+    "med_tax_bill": 5065.89811,
+    "property_count": 2747
+  },
+  {
+    "neighborhood": "Parkchester",
+    "med_mkt_val": 656000.0,
+    "med_etr_no_exemption": 0.0092849489,
+    "med_etr": 0.0089897277,
+    "med_tax_bill": 5796.58295,
+    "property_count": 620
+  },
+  {
+    "neighborhood": "Neponsit",
+    "med_mkt_val": 1162000.0,
+    "med_etr_no_exemption": 0.0092002795,
+    "med_etr": 0.0089766099,
+    "med_tax_bill": 10393.84368,
+    "property_count": 606
+  },
+  {
+    "neighborhood": "Unionport",
+    "med_mkt_val": 620000.0,
+    "med_etr_no_exemption": 0.009274413,
+    "med_etr": 0.0089255486,
+    "med_tax_bill": 5502.36165,
+    "property_count": 2204
+  },
+  {
+    "neighborhood": "Van Nest",
+    "med_mkt_val": 626500.0,
+    "med_etr_no_exemption": 0.0092226582,
+    "med_etr": 0.0089137405,
+    "med_tax_bill": 5622.16687,
+    "property_count": 1424
+  },
+  {
+    "neighborhood": "Oakland Gardens",
+    "med_mkt_val": 1015000.0,
+    "med_etr_no_exemption": 0.0092263567,
+    "med_etr": 0.0088943593,
+    "med_tax_bill": 9529.3834,
+    "property_count": 1555
+  },
+  {
+    "neighborhood": "Soundview",
+    "med_mkt_val": 656000.0,
+    "med_etr_no_exemption": 0.0092152255,
+    "med_etr": 0.0088936777,
+    "med_tax_bill": 5776.26263,
+    "property_count": 3109
   },
   {
-    "boro": 4,
-    "neighborhood": "South Jamaica",
-    "med_mkt_val": 518000,
-    "med_etr_no_exemption": 0.008431768618609527,
-    "med_etr": 0.008054152306332926,
-    "property_count": 10782
+    "neighborhood": "South Ozone Park",
+    "med_mkt_val": 595000.0,
+    "med_etr_no_exemption": 0.009196195,
+    "med_etr": 0.0088638222,
+    "med_tax_bill": 5296.19507,
+    "property_count": 14310
   },
   {
-    "boro": 2,
-    "neighborhood": "Bedford Park",
-    "med_mkt_val": 655000,
-    "med_etr_no_exemption": 0.00835337935168248,
-    "med_etr": 0.008043813963210703,
-    "property_count": 1118
+    "neighborhood": "Briarwood",
+    "med_mkt_val": 800000.0,
+    "med_etr_no_exemption": 0.0091590049,
+    "med_etr": 0.0088394498,
+    "med_tax_bill": 7183.02145,
+    "property_count": 1983
   },
   {
-    "boro": 4,
-    "neighborhood": "Glendale",
-    "med_mkt_val": 809000,
-    "med_etr_no_exemption": 0.008459287869292838,
-    "med_etr": 0.008022677882649336,
-    "property_count": 11830
+    "neighborhood": "Whitestone",
+    "med_mkt_val": 1000000.0,
+    "med_etr_no_exemption": 0.009165109,
+    "med_etr": 0.0087810909,
+    "med_tax_bill": 8917.6571,
+    "property_count": 8203
   },
   {
-    "boro": 4,
-    "neighborhood": "Jamaica",
-    "med_mkt_val": 593000,
-    "med_etr_no_exemption": 0.008480598905289053,
-    "med_etr": 0.0080111629342723,
-    "property_count": 21687
+    "neighborhood": "Bayside",
+    "med_mkt_val": 977000.0,
+    "med_etr_no_exemption": 0.0091207645,
+    "med_etr": 0.0087661479,
+    "med_tax_bill": 8777.10822,
+    "property_count": 11272
   },
   {
-    "boro": 1,
-    "neighborhood": "Midtown",
-    "med_mkt_val": 6505500,
-    "med_etr_no_exemption": 0.008497490714169095,
-    "med_etr": 0.007873858587983614,
-    "property_count": 276
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Kips Bay",
-    "med_mkt_val": 5009500,
-    "med_etr_no_exemption": 0.007898715475801434,
-    "med_etr": 0.007834042886621758,
-    "property_count": 144
-  },
-  {
-    "boro": 4,
-    "neighborhood": "College Point",
-    "med_mkt_val": 933000,
-    "med_etr_no_exemption": 0.008144899012514435,
-    "med_etr": 0.007812859327147493,
-    "property_count": 10160
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Maspeth",
-    "med_mkt_val": 853000,
-    "med_etr_no_exemption": 0.00814652104048561,
-    "med_etr": 0.007764274435010567,
-    "property_count": 19260
-  },
-  {
-    "boro": 4,
-    "neighborhood": "East Elmhurst",
-    "med_mkt_val": 828000,
-    "med_etr_no_exemption": 0.00796066630512528,
-    "med_etr": 0.0077157866698133,
-    "property_count": 4790
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Flushing",
-    "med_mkt_val": 1019000,
-    "med_etr_no_exemption": 0.00800116310254163,
-    "med_etr": 0.007672104607902736,
-    "property_count": 23667
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Brighton Beach",
-    "med_mkt_val": 806000,
-    "med_etr_no_exemption": 0.007969026593406594,
-    "med_etr": 0.0076639795495495495,
-    "property_count": 2131
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Coney Island",
-    "med_mkt_val": 553000,
-    "med_etr_no_exemption": 0.008204683212543553,
-    "med_etr": 0.007579353925925926,
-    "property_count": 2296
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Forest Hills",
-    "med_mkt_val": 1163500,
-    "med_etr_no_exemption": 0.007813879569283635,
-    "med_etr": 0.0075654650763474175,
-    "property_count": 12296
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Sheepshead Bay",
-    "med_mkt_val": 930000,
-    "med_etr_no_exemption": 0.007903022658682635,
-    "med_etr": 0.007561678298450116,
-    "property_count": 26212
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Spuyten Duyvil",
-    "med_mkt_val": 1401000,
-    "med_etr_no_exemption": 0.007778519221862141,
-    "med_etr": 0.007546645287699135,
-    "property_count": 540
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Fort Hamilton",
-    "med_mkt_val": 913000,
-    "med_etr_no_exemption": 0.008238217969084097,
-    "med_etr": 0.0075059376812987655,
-    "property_count": 26
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Elmhurst",
-    "med_mkt_val": 1077000,
-    "med_etr_no_exemption": 0.007850782098408103,
-    "med_etr": 0.007496980423163293,
-    "property_count": 12202
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Arverne",
-    "med_mkt_val": 491000,
-    "med_etr_no_exemption": 0.008802118811881188,
-    "med_etr": 0.007462803674321503,
-    "property_count": 4037
-  },
-  {
-    "boro": 2,
-    "neighborhood": "University Heights",
-    "med_mkt_val": 623000,
-    "med_etr_no_exemption": 0.007772741108069903,
-    "med_etr": 0.0074185836330413635,
-    "property_count": 1106
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Fordham Manor",
-    "med_mkt_val": 672000,
-    "med_etr_no_exemption": 0.00792162229748124,
-    "med_etr": 0.007376738538938163,
-    "property_count": 904
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Bay Ridge",
-    "med_mkt_val": 1283000,
-    "med_etr_no_exemption": 0.007616629806013579,
-    "med_etr": 0.007347874520325203,
-    "property_count": 16867
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Cypress Hills",
-    "med_mkt_val": 705000,
-    "med_etr_no_exemption": 0.007632794850299401,
-    "med_etr": 0.007345767961309524,
-    "property_count": 11307
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Woodside",
-    "med_mkt_val": 1098000,
-    "med_etr_no_exemption": 0.0075416688811188815,
-    "med_etr": 0.007255544328671329,
-    "property_count": 6319
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Corona",
-    "med_mkt_val": 1021000,
-    "med_etr_no_exemption": 0.00769383201962213,
-    "med_etr": 0.007227536938780173,
-    "property_count": 6658
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Upper East Side",
-    "med_mkt_val": 9982000,
-    "med_etr_no_exemption": 0.007252719813931724,
-    "med_etr": 0.0070861204631937,
-    "property_count": 2458
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Glendale",
-    "med_mkt_val": 647000,
-    "med_etr_no_exemption": 0.007468864048367066,
-    "med_etr": 0.007076139966750165,
-    "property_count": 10
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Midwood",
-    "med_mkt_val": 1274000,
-    "med_etr_no_exemption": 0.007349543551669175,
-    "med_etr": 0.007057053782426149,
-    "property_count": 16952
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Bath Beach",
-    "med_mkt_val": 1141000,
-    "med_etr_no_exemption": 0.00742577772070626,
-    "med_etr": 0.007001976303030303,
-    "property_count": 6798
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Dyker Heights",
-    "med_mkt_val": 1208000,
-    "med_etr_no_exemption": 0.007318211736842105,
-    "med_etr": 0.006994867130761994,
-    "property_count": 12007
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Gravesend",
-    "med_mkt_val": 1102000,
-    "med_etr_no_exemption": 0.007095710722175021,
-    "med_etr": 0.006725935435114504,
-    "property_count": 20441
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Fordham Heights",
-    "med_mkt_val": 591000,
-    "med_etr_no_exemption": 0.007089137592198086,
-    "med_etr": 0.006670805965642871,
-    "property_count": 726
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Melrose",
-    "med_mkt_val": 712000,
-    "med_etr_no_exemption": 0.008564396786990223,
-    "med_etr": 0.006640504393530997,
-    "property_count": 658
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Longwood",
-    "med_mkt_val": 645000,
-    "med_etr_no_exemption": 0.007899481421319797,
-    "med_etr": 0.006618333173277662,
-    "property_count": 2754
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Sunnyside",
-    "med_mkt_val": 1184000,
-    "med_etr_no_exemption": 0.0068232235848155465,
-    "med_etr": 0.006580569638157895,
-    "property_count": 4332
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Broad Channel",
-    "med_mkt_val": 437000,
-    "med_etr_no_exemption": 0.007101075803202414,
-    "med_etr": 0.006545399977911133,
-    "property_count": 1690
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Bensonhurst",
-    "med_mkt_val": 1243000,
-    "med_etr_no_exemption": 0.006771481387970919,
-    "med_etr": 0.006464637116055204,
-    "property_count": 18464
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Belmont/Little Italy",
-    "med_mkt_val": 628000,
-    "med_etr_no_exemption": 0.00697513375,
-    "med_etr": 0.006454550242990654,
-    "property_count": 2165
-  },
-  {
-    "boro": 4,
-    "neighborhood": "North Corona",
-    "med_mkt_val": 1020000,
-    "med_etr_no_exemption": 0.006801529220147818,
-    "med_etr": 0.006452901823560944,
-    "property_count": 5600
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Ditmars Steinway",
-    "med_mkt_val": 1270000,
-    "med_etr_no_exemption": 0.006691816679418516,
-    "med_etr": 0.0064495853807053855,
-    "property_count": 11514
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Tremont",
-    "med_mkt_val": 623000,
-    "med_etr_no_exemption": 0.008220092978852265,
-    "med_etr": 0.006448964856822634,
-    "property_count": 1184
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Ridgewood",
-    "med_mkt_val": 1020000,
-    "med_etr_no_exemption": 0.006683677383081813,
-    "med_etr": 0.006421220330698768,
-    "property_count": 9540
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Hamilton Beach",
-    "med_mkt_val": 444000,
-    "med_etr_no_exemption": 0.006814373120669583,
-    "med_etr": 0.006313220148652021,
-    "property_count": 1022
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Mott Haven",
-    "med_mkt_val": 684000,
-    "med_etr_no_exemption": 0.0071614331650485434,
-    "med_etr": 0.006270461782178218,
-    "property_count": 1863
-  },
-  {
-    "boro": 3,
-    "neighborhood": "East New York",
-    "med_mkt_val": 653000,
-    "med_etr_no_exemption": 0.007482993948445172,
-    "med_etr": 0.006195824361025112,
-    "property_count": 20934
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Astoria",
-    "med_mkt_val": 1347000,
-    "med_etr_no_exemption": 0.006447215906251835,
-    "med_etr": 0.006189116292760541,
-    "property_count": 12232
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Brownsville",
-    "med_mkt_val": 651000,
-    "med_etr_no_exemption": 0.008273238184971098,
-    "med_etr": 0.006052901941309255,
-    "property_count": 7789
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Borough Park",
-    "med_mkt_val": 1492500,
-    "med_etr_no_exemption": 0.006206729915333961,
-    "med_etr": 0.006023762828778913,
-    "property_count": 15724
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Meadowmere",
-    "med_mkt_val": 407500,
-    "med_etr_no_exemption": 0.006008182283773292,
-    "med_etr": 0.005878596346758727,
-    "property_count": 92
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Morrisania",
-    "med_mkt_val": 613000,
-    "med_etr_no_exemption": 0.007913850115300072,
-    "med_etr": 0.005825744165328609,
-    "property_count": 1520
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Hell's Kitchen",
-    "med_mkt_val": 6018000,
-    "med_etr_no_exemption": 0.005672071608251674,
-    "med_etr": 0.005672071608251674,
-    "property_count": 98
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Morris Heights",
-    "med_mkt_val": 680500,
-    "med_etr_no_exemption": 0.006201619303882196,
-    "med_etr": 0.0056119263733336484,
-    "property_count": 1192
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Kensington",
-    "med_mkt_val": 1292000,
-    "med_etr_no_exemption": 0.005778610912511759,
-    "med_etr": 0.0055700369543147206,
-    "property_count": 6007
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Gramercy",
-    "med_mkt_val": 7758000,
-    "med_etr_no_exemption": 0.00553717140729944,
-    "med_etr": 0.0055310108550250415,
-    "property_count": 226
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Nolita",
-    "med_mkt_val": 6976000,
-    "med_etr_no_exemption": 0.00551584060310942,
-    "med_etr": 0.00551584060310942,
-    "property_count": 26
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Financial District",
-    "med_mkt_val": 7760000,
-    "med_etr_no_exemption": 0.005443045916769558,
-    "med_etr": 0.005443045916769558,
-    "property_count": 26
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Hunters Point/Long Island City",
-    "med_mkt_val": 1295000,
-    "med_etr_no_exemption": 0.005463567097457627,
-    "med_etr": 0.005401703083062268,
-    "property_count": 698
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Edgemere",
-    "med_mkt_val": 445000,
-    "med_etr_no_exemption": 0.007356909938814665,
-    "med_etr": 0.005397042256410256,
-    "property_count": 1320
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Flatbush",
-    "med_mkt_val": 1444000,
-    "med_etr_no_exemption": 0.0055788786458795606,
-    "med_etr": 0.005381822181372549,
-    "property_count": 7564
-  },
-  {
-    "boro": 4,
-    "neighborhood": "Bushwick",
-    "med_mkt_val": 1182000,
-    "med_etr_no_exemption": 0.005608331483420594,
-    "med_etr": 0.005224606468224527,
-    "property_count": 82
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Claremont Village",
-    "med_mkt_val": 611000,
-    "med_etr_no_exemption": 0.005575173276404678,
-    "med_etr": 0.005216612160089151,
-    "property_count": 776
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Hunts Point",
-    "med_mkt_val": 689000,
-    "med_etr_no_exemption": 0.005526811399935726,
-    "med_etr": 0.005187000426570928,
-    "property_count": 682
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Mt Hope",
-    "med_mkt_val": 634000,
-    "med_etr_no_exemption": 0.005392289519607765,
-    "med_etr": 0.005184664465407208,
-    "property_count": 546
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Concourse",
-    "med_mkt_val": 575000,
-    "med_etr_no_exemption": 0.005348792351282051,
-    "med_etr": 0.005109339948739638,
-    "property_count": 164
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Sunset Park",
-    "med_mkt_val": 1332000,
-    "med_etr_no_exemption": 0.00505320126984127,
-    "med_etr": 0.004864763137114142,
-    "property_count": 11473
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Upper West Side",
-    "med_mkt_val": 7854500,
-    "med_etr_no_exemption": 0.004834504528620614,
-    "med_etr": 0.004788336427717998,
-    "property_count": 1200
-  },
-  {
-    "boro": 4,
-    "neighborhood": "East New York",
-    "med_mkt_val": 622000,
-    "med_etr_no_exemption": 0.004785489823540497,
-    "med_etr": 0.004785489823540497,
-    "property_count": 6
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Concourse Village",
-    "med_mkt_val": 677000,
-    "med_etr_no_exemption": 0.004849700094152233,
-    "med_etr": 0.0046316782762374255,
-    "property_count": 868
-  },
-  {
-    "boro": 4,
-    "neighborhood": "The Hole",
-    "med_mkt_val": 576000,
-    "med_etr_no_exemption": 0.004627044176352922,
-    "med_etr": 0.004523014768776574,
-    "property_count": 96
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Mt Eden",
-    "med_mkt_val": 677000,
-    "med_etr_no_exemption": 0.004715637691262136,
-    "med_etr": 0.004512872400855059,
-    "property_count": 166
-  },
-  {
-    "boro": 2,
-    "neighborhood": "Highbridge",
-    "med_mkt_val": 650000,
-    "med_etr_no_exemption": 0.005171169029982364,
-    "med_etr": 0.004508906984126984,
-    "property_count": 705
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Tribeca",
-    "med_mkt_val": 8221000,
-    "med_etr_no_exemption": 0.004496368728954233,
-    "med_etr": 0.004496368728954233,
-    "property_count": 91
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Greenwich Village",
-    "med_mkt_val": 10644000,
-    "med_etr_no_exemption": 0.004541368800982718,
-    "med_etr": 0.004439427394022385,
-    "property_count": 640
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Chelsea",
-    "med_mkt_val": 8077000,
-    "med_etr_no_exemption": 0.004335602327419523,
-    "med_etr": 0.004306544185928832,
-    "property_count": 462
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Crown Heights",
-    "med_mkt_val": 1282000,
-    "med_etr_no_exemption": 0.004472532195170787,
-    "med_etr": 0.004151792289156626,
-    "property_count": 11254
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Chinatown",
-    "med_mkt_val": 4416000,
-    "med_etr_no_exemption": 0.004197104956777685,
-    "med_etr": 0.004135258183527691,
-    "property_count": 18
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Hudson Square",
-    "med_mkt_val": 7759000,
-    "med_etr_no_exemption": 0.004218174453484172,
-    "med_etr": 0.004132634830244644,
-    "property_count": 110
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Prospect Lefferts Gardens",
-    "med_mkt_val": 1611000,
-    "med_etr_no_exemption": 0.004296631356687898,
-    "med_etr": 0.004096806418744626,
-    "property_count": 3783
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Brooklyn Navy Yard",
-    "med_mkt_val": 2012500,
-    "med_etr_no_exemption": 0.00408497422878748,
-    "med_etr": 0.00408497422878748,
-    "property_count": 28
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Brooklyn Heights",
-    "med_mkt_val": 6099500,
-    "med_etr_no_exemption": 0.003981036883698365,
-    "med_etr": 0.003957639042661427,
-    "property_count": 1148
-  },
-  {
-    "boro": 1,
-    "neighborhood": "West Village",
-    "med_mkt_val": 9866000,
-    "med_etr_no_exemption": 0.003888341930885077,
-    "med_etr": 0.0038753185094704736,
-    "property_count": 1048
-  },
-  {
-    "boro": 3,
-    "neighborhood": "DUMBO",
-    "med_mkt_val": 4551000,
-    "med_etr_no_exemption": 0.0035709677995933537,
-    "med_etr": 0.0035709677995933537,
-    "property_count": 16
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Two Bridges",
-    "med_mkt_val": 4902500,
-    "med_etr_no_exemption": 0.003596278576090051,
-    "med_etr": 0.003568006472656154,
-    "property_count": 8
-  },
-  {
-    "boro": 1,
-    "neighborhood": "SoHo",
-    "med_mkt_val": 7483500,
-    "med_etr_no_exemption": 0.0035628691485982376,
-    "med_etr": 0.0035516204001138996,
-    "property_count": 76
-  },
-  {
-    "boro": 1,
-    "neighborhood": "Washington Heights",
-    "med_mkt_val": 1925000,
-    "med_etr_no_exemption": 0.0036265053178075376,
-    "med_etr": 0.003458444151079137,
-    "property_count": 436
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Windsor Terrace",
-    "med_mkt_val": 1888000,
-    "med_etr_no_exemption": 0.0035711514827692454,
-    "med_etr": 0.0034123156411698537,
+    "neighborhood": "Richmond Hill",
+    "med_mkt_val": 736000.0,
+    "med_etr_no_exemption": 0.0090913443,
+    "med_etr": 0.0087564727,
+    "med_tax_bill": 6290.514895,
     "property_count": 3760
   },
   {
-    "boro": 1,
-    "neighborhood": "East Harlem",
-    "med_mkt_val": 2433000,
-    "med_etr_no_exemption": 0.00440622183531746,
-    "med_etr": 0.0034119009613394554,
-    "property_count": 822
+    "neighborhood": "Auberndale",
+    "med_mkt_val": 947000.0,
+    "med_etr_no_exemption": 0.0091296265,
+    "med_etr": 0.0087441458,
+    "med_tax_bill": 8412.61248,
+    "property_count": 4211
   },
   {
-    "boro": 1,
-    "neighborhood": "Little Italy",
-    "med_mkt_val": 7280500,
-    "med_etr_no_exemption": 0.0032717910454669943,
-    "med_etr": 0.0032717910454669943,
-    "property_count": 32
+    "neighborhood": "Hillcrest",
+    "med_mkt_val": 821000.0,
+    "med_etr_no_exemption": 0.0090954757,
+    "med_etr": 0.008725977,
+    "med_tax_bill": 7249.803335,
+    "property_count": 2694
   },
   {
-    "boro": 3,
-    "neighborhood": "Columbia Street Waterfront District",
-    "med_mkt_val": 2464000,
-    "med_etr_no_exemption": 0.003500968694182127,
-    "med_etr": 0.0031898720720288662,
-    "property_count": 416
+    "neighborhood": "Far Rockaway",
+    "med_mkt_val": 580000.0,
+    "med_etr_no_exemption": 0.0090877823,
+    "med_etr": 0.0086876837,
+    "med_tax_bill": 5090.24016,
+    "property_count": 3722
   },
   {
-    "boro": 3,
-    "neighborhood": "Bushwick",
-    "med_mkt_val": 1125000,
-    "med_etr_no_exemption": 0.0034869933462132923,
-    "med_etr": 0.003159665928196147,
-    "property_count": 12847
+    "neighborhood": "Kew Gardens",
+    "med_mkt_val": 853000.0,
+    "med_etr_no_exemption": 0.00898686,
+    "med_etr": 0.0086834542,
+    "med_tax_bill": 7099.4118,
+    "property_count": 1660
   },
   {
-    "boro": 3,
-    "neighborhood": "Greenwood Heights",
-    "med_mkt_val": 1535000,
-    "med_etr_no_exemption": 0.0032618981121208895,
-    "med_etr": 0.0031025883347721955,
-    "property_count": 2748
+    "neighborhood": "Ozone Park",
+    "med_mkt_val": 664000.0,
+    "med_etr_no_exemption": 0.0089884238,
+    "med_etr": 0.0086599364,
+    "med_tax_bill": 5700.2731,
+    "property_count": 7588
   },
   {
-    "boro": 3,
-    "neighborhood": "Williamsburg",
-    "med_mkt_val": 1884000,
-    "med_etr_no_exemption": 0.003326508011452854,
-    "med_etr": 0.003086430965776364,
-    "property_count": 6320
+    "neighborhood": "Jamaica Hills",
+    "med_mkt_val": 852000.0,
+    "med_etr_no_exemption": 0.0089407929,
+    "med_etr": 0.0086475052,
+    "med_tax_bill": 7372.04276,
+    "property_count": 1335
   },
   {
-    "boro": 1,
-    "neighborhood": "Harlem",
-    "med_mkt_val": 2590000,
-    "med_etr_no_exemption": 0.0033207577209302327,
-    "med_etr": 0.003033861924435028,
-    "property_count": 3297
+    "neighborhood": "Marble Hill",
+    "med_mkt_val": 677000.0,
+    "med_etr_no_exemption": 0.0091151391,
+    "med_etr": 0.0085921203,
+    "med_tax_bill": 5917.23485,
+    "property_count": 146
   },
   {
-    "boro": 3,
-    "neighborhood": "Vinegar Hill",
-    "med_mkt_val": 2662000,
-    "med_etr_no_exemption": 0.003022826749637681,
-    "med_etr": 0.003022826749637681,
-    "property_count": 70
+    "neighborhood": "West Farms",
+    "med_mkt_val": 659500.0,
+    "med_etr_no_exemption": 0.0091193631,
+    "med_etr": 0.0085808745,
+    "med_tax_bill": 5425.31377,
+    "property_count": 178
   },
   {
-    "boro": 3,
-    "neighborhood": "Bed Stuy",
-    "med_mkt_val": 1402000,
-    "med_etr_no_exemption": 0.003108486640506912,
-    "med_etr": 0.0029171805394009485,
-    "property_count": 24712
+    "neighborhood": "Rochdale",
+    "med_mkt_val": 719500.0,
+    "med_etr_no_exemption": 0.0087876306,
+    "med_etr": 0.0085698155,
+    "med_tax_bill": 6320.995375,
+    "property_count": 12
   },
   {
-    "boro": 3,
-    "neighborhood": "Greenpoint",
-    "med_mkt_val": 1878000,
-    "med_etr_no_exemption": 0.0030450322715053764,
-    "med_etr": 0.002898026786396637,
-    "property_count": 4329
+    "neighborhood": "Manhattan Beach",
+    "med_mkt_val": 1504000.0,
+    "med_etr_no_exemption": 0.008745155,
+    "med_etr": 0.0085287259,
+    "med_tax_bill": 12532.9807,
+    "property_count": 1244
   },
   {
-    "boro": 3,
-    "neighborhood": "East Williamsburg",
-    "med_mkt_val": 1595500,
-    "med_etr_no_exemption": 0.0030844514138153646,
-    "med_etr": 0.0028737688910632745,
-    "property_count": 832
+    "neighborhood": "Marine Park",
+    "med_mkt_val": 730000.0,
+    "med_etr_no_exemption": 0.0088494727,
+    "med_etr": 0.0084838065,
+    "med_tax_bill": 6224.36802,
+    "property_count": 6073
   },
   {
-    "boro": 1,
-    "neighborhood": "Lower East Side",
-    "med_mkt_val": 4567000,
-    "med_etr_no_exemption": 0.002872210388289294,
-    "med_etr": 0.002872210388289294,
-    "property_count": 61
+    "neighborhood": "Gerritsen Beach",
+    "med_mkt_val": 500000.0,
+    "med_etr_no_exemption": 0.0090778821,
+    "med_etr": 0.0084705798,
+    "med_tax_bill": 4301.34607,
+    "property_count": 1895
   },
   {
-    "boro": 3,
-    "neighborhood": "Cobble Hill",
-    "med_mkt_val": 4576000,
-    "med_etr_no_exemption": 0.002777223700172889,
-    "med_etr": 0.0027501418117878255,
-    "property_count": 1142
+    "neighborhood": "East Flatbush",
+    "med_mkt_val": 661000.0,
+    "med_etr_no_exemption": 0.0088418942,
+    "med_etr": 0.0084425064,
+    "med_tax_bill": 5566.603495,
+    "property_count": 15908
   },
   {
-    "boro": 3,
-    "neighborhood": "Clinton Hill",
-    "med_mkt_val": 2262000,
-    "med_etr_no_exemption": 0.002836397970909127,
-    "med_etr": 0.0027500331490894862,
-    "property_count": 2518
+    "neighborhood": "Kingsbridge",
+    "med_mkt_val": 834000.0,
+    "med_etr_no_exemption": 0.0087376581,
+    "med_etr": 0.0083902778,
+    "med_tax_bill": 6902.876205,
+    "property_count": 404
   },
   {
-    "boro": 3,
-    "neighborhood": "Downtown Brooklyn",
-    "med_mkt_val": 2242000,
-    "med_etr_no_exemption": 0.002985261417578988,
-    "med_etr": 0.0026643636513860886,
+    "neighborhood": "Rego Park",
+    "med_mkt_val": 950000.0,
+    "med_etr_no_exemption": 0.0086845211,
+    "med_etr": 0.0083708335,
+    "med_tax_bill": 8048.11674,
+    "property_count": 2798
+  },
+  {
+    "neighborhood": "Rockaway Park",
+    "med_mkt_val": 757000.0,
+    "med_etr_no_exemption": 0.0086112891,
+    "med_etr": 0.0083690491,
+    "med_tax_bill": 6427.14788,
+    "property_count": 830
+  },
+  {
+    "neighborhood": "Midtown",
+    "med_mkt_val": 6505500.0,
+    "med_etr_no_exemption": 0.0088222763,
+    "med_etr": 0.0083437923,
+    "med_tax_bill": 47820.168895,
+    "property_count": 138
+  },
+  {
+    "neighborhood": "Rockaway Beach",
+    "med_mkt_val": 524000.0,
+    "med_etr_no_exemption": 0.0089846888,
+    "med_etr": 0.0083381252,
+    "med_tax_bill": 4358.70864,
+    "property_count": 751
+  },
+  {
+    "neighborhood": "Norwood",
+    "med_mkt_val": 696000.0,
+    "med_etr_no_exemption": 0.0086669291,
+    "med_etr": 0.0083218165,
+    "med_tax_bill": 5713.18497,
+    "property_count": 457
+  },
+  {
+    "neighborhood": "Classon Point",
+    "med_mkt_val": 576000.0,
+    "med_etr_no_exemption": 0.008695835,
+    "med_etr": 0.0083194348,
+    "med_tax_bill": 4620.12109,
+    "property_count": 1386
+  },
+  {
+    "neighborhood": "Kew Garden Hills",
+    "med_mkt_val": 887000.0,
+    "med_etr_no_exemption": 0.0086451292,
+    "med_etr": 0.0083183264,
+    "med_tax_bill": 7513.86166,
+    "property_count": 3567
+  },
+  {
+    "neighborhood": "Murray Hill",
+    "med_mkt_val": 1015000.0,
+    "med_etr_no_exemption": 0.0086343143,
+    "med_etr": 0.0083159928,
+    "med_tax_bill": 8443.30463,
+    "property_count": 6677
+  },
+  {
+    "neighborhood": "Jackson Heights",
+    "med_mkt_val": 935000.0,
+    "med_etr_no_exemption": 0.0085918947,
+    "med_etr": 0.0082822278,
+    "med_tax_bill": 7733.78679,
+    "property_count": 6950
+  },
+  {
+    "neighborhood": "Woodhaven",
+    "med_mkt_val": 687000.0,
+    "med_etr_no_exemption": 0.0085867856,
+    "med_etr": 0.0082704381,
+    "med_tax_bill": 5650.74232,
+    "property_count": 5898
+  },
+  {
+    "neighborhood": "Middle Village",
+    "med_mkt_val": 830000.0,
+    "med_etr_no_exemption": 0.0086580924,
+    "med_etr": 0.0082446406,
+    "med_tax_bill": 6913.77721,
+    "property_count": 6873
+  },
+  {
+    "neighborhood": "Glendale",
+    "med_mkt_val": 809000.0,
+    "med_etr_no_exemption": 0.008619251,
+    "med_etr": 0.0082027966,
+    "med_tax_bill": 6494.88228,
+    "property_count": 5920
+  },
+  {
+    "neighborhood": "Kingsbridge Heights",
+    "med_mkt_val": 700000.0,
+    "med_etr_no_exemption": 0.0085215012,
+    "med_etr": 0.0081861861,
+    "med_tax_bill": 5712.9733,
+    "property_count": 697
+  },
+  {
+    "neighborhood": "Sea Gate",
+    "med_mkt_val": 791000.0,
+    "med_etr_no_exemption": 0.0083974562,
+    "med_etr": 0.0081620071,
+    "med_tax_bill": 6253.79015,
+    "property_count": 804
+  },
+  {
+    "neighborhood": "South Jamaica",
+    "med_mkt_val": 518000.0,
+    "med_etr_no_exemption": 0.0084444832,
+    "med_etr": 0.0080828762,
+    "med_tax_bill": 4202.91952,
+    "property_count": 5392
+  },
+  {
+    "neighborhood": "East Morrisania",
+    "med_mkt_val": 602000.0,
+    "med_etr_no_exemption": 0.0087222524,
+    "med_etr": 0.0080398613,
+    "med_tax_bill": 4407.39274,
+    "property_count": 1317
+  },
+  {
+    "neighborhood": "Jamaica",
+    "med_mkt_val": 593000.0,
+    "med_etr_no_exemption": 0.0084806634,
+    "med_etr": 0.0080188571,
+    "med_tax_bill": 4718.97098,
+    "property_count": 10847
+  },
+  {
+    "neighborhood": "College Point",
+    "med_mkt_val": 933000.0,
+    "med_etr_no_exemption": 0.0082442751,
+    "med_etr": 0.0079404101,
+    "med_tax_bill": 7257.74096,
+    "property_count": 5081
+  },
+  {
+    "neighborhood": "Maspeth",
+    "med_mkt_val": 853000.0,
+    "med_etr_no_exemption": 0.0083120571,
+    "med_etr": 0.0079358422,
+    "med_tax_bill": 6730.89433,
+    "property_count": 9631
+  },
+  {
+    "neighborhood": "Kips Bay",
+    "med_mkt_val": 5009500.0,
+    "med_etr_no_exemption": 0.0079261237,
+    "med_etr": 0.0079013219,
+    "med_tax_bill": 39221.075145,
+    "property_count": 72
+  },
+  {
+    "neighborhood": "Fort Hamilton",
+    "med_mkt_val": 913000.0,
+    "med_etr_no_exemption": 0.0084164999,
+    "med_etr": 0.0078462443,
+    "med_tax_bill": 7605.09143,
+    "property_count": 13
+  },
+  {
+    "neighborhood": "Flushing",
+    "med_mkt_val": 1019000.0,
+    "med_etr_no_exemption": 0.0081332429,
+    "med_etr": 0.0078137507,
+    "med_tax_bill": 8166.01693,
+    "property_count": 11835
+  },
+  {
+    "neighborhood": "East Elmhurst",
+    "med_mkt_val": 828000.0,
+    "med_etr_no_exemption": 0.0080155346,
+    "med_etr": 0.0077935639,
+    "med_tax_bill": 6310.30604,
+    "property_count": 2395
+  },
+  {
+    "neighborhood": "Forest Hills",
+    "med_mkt_val": 1163500.0,
+    "med_etr_no_exemption": 0.0079500328,
+    "med_etr": 0.0076943126,
+    "med_tax_bill": 8868.12632,
+    "property_count": 6148
+  },
+  {
+    "neighborhood": "Bedford Park",
+    "med_mkt_val": 655000.0,
+    "med_etr_no_exemption": 0.0080239604,
+    "med_etr": 0.0076942326,
+    "med_tax_bill": 4828.40437,
+    "property_count": 559
+  },
+  {
+    "neighborhood": "Elmhurst",
+    "med_mkt_val": 1077000.0,
+    "med_etr_no_exemption": 0.0079250138,
+    "med_etr": 0.0075844773,
+    "med_tax_bill": 7912.2246,
+    "property_count": 6102
+  },
+  {
+    "neighborhood": "Coney Island",
+    "med_mkt_val": 553000.0,
+    "med_etr_no_exemption": 0.0081988432,
+    "med_etr": 0.0075648865,
+    "med_tax_bill": 4245.25352,
+    "property_count": 1148
+  },
+  {
+    "neighborhood": "Sheepshead Bay",
+    "med_mkt_val": 930000.0,
+    "med_etr_no_exemption": 0.0078461022,
+    "med_etr": 0.0075184777,
+    "med_tax_bill": 7140.89912,
+    "property_count": 13107
+  },
+  {
+    "neighborhood": "Spuyten Duyvil",
+    "med_mkt_val": 1401000.0,
+    "med_etr_no_exemption": 0.0077166918,
+    "med_etr": 0.0074694759,
+    "med_tax_bill": 10282.08192,
+    "property_count": 270
+  },
+  {
+    "neighborhood": "Brighton Beach",
+    "med_mkt_val": 806000.0,
+    "med_etr_no_exemption": 0.0076644519,
+    "med_etr": 0.0074367965,
+    "med_tax_bill": 5845.47872,
+    "property_count": 1066
+  },
+  {
+    "neighborhood": "Arverne",
+    "med_mkt_val": 491000.0,
+    "med_etr_no_exemption": 0.0086809554,
+    "med_etr": 0.0074363013,
+    "med_tax_bill": 3513.722,
+    "property_count": 2021
+  },
+  {
+    "neighborhood": "Corona",
+    "med_mkt_val": 1021000.0,
+    "med_etr_no_exemption": 0.007862064,
+    "med_etr": 0.0074072,
+    "med_tax_bill": 6930.604975,
+    "property_count": 3330
+  },
+  {
+    "neighborhood": "Bay Ridge",
+    "med_mkt_val": 1283000.0,
+    "med_etr_no_exemption": 0.0076054157,
+    "med_etr": 0.0073580779,
+    "med_tax_bill": 9342.372955,
+    "property_count": 8434
+  },
+  {
+    "neighborhood": "Woodside",
+    "med_mkt_val": 1098000.0,
+    "med_etr_no_exemption": 0.0075572732,
+    "med_etr": 0.0073025088,
+    "med_tax_bill": 7802.36787,
+    "property_count": 3160
+  },
+  {
+    "neighborhood": "Upper East Side",
+    "med_mkt_val": 9980000.0,
+    "med_etr_no_exemption": 0.0074342491,
+    "med_etr": 0.007257493,
+    "med_tax_bill": 73323.54635,
+    "property_count": 1231
+  },
+  {
+    "neighborhood": "Cypress Hills",
+    "med_mkt_val": 705000.0,
+    "med_etr_no_exemption": 0.007477854,
+    "med_etr": 0.0072026331,
+    "med_tax_bill": 4929.37096,
+    "property_count": 5654
+  },
+  {
+    "neighborhood": "Fordham Manor",
+    "med_mkt_val": 672000.0,
+    "med_etr_no_exemption": 0.0076230027,
+    "med_etr": 0.0071816266,
+    "med_tax_bill": 4537.887295,
+    "property_count": 452
+  },
+  {
+    "neighborhood": "Bath Beach",
+    "med_mkt_val": 1141000.0,
+    "med_etr_no_exemption": 0.0074595371,
+    "med_etr": 0.0070933394,
+    "med_tax_bill": 7970.64552,
+    "property_count": 3400
+  },
+  {
+    "neighborhood": "Midwood",
+    "med_mkt_val": 1274000.0,
+    "med_etr_no_exemption": 0.0073503225,
+    "med_etr": 0.0070727238,
+    "med_tax_bill": 8932.474,
+    "property_count": 8476
+  },
+  {
+    "neighborhood": "Dyker Heights",
+    "med_mkt_val": 1208000.0,
+    "med_etr_no_exemption": 0.0073553044,
+    "med_etr": 0.0070489877,
+    "med_tax_bill": 8272.69861,
+    "property_count": 6004
+  },
+  {
+    "neighborhood": "University Heights",
+    "med_mkt_val": 623000.0,
+    "med_etr_no_exemption": 0.0075009406,
+    "med_etr": 0.0070036115,
+    "med_tax_bill": 4339.235,
+    "property_count": 553
+  },
+  {
+    "neighborhood": "Gravesend",
+    "med_mkt_val": 1102000.0,
+    "med_etr_no_exemption": 0.0070498082,
+    "med_etr": 0.0067250583,
+    "med_tax_bill": 7528.04355,
+    "property_count": 10221
+  },
+  {
+    "neighborhood": "Ridgewood",
+    "med_mkt_val": 1020000.0,
+    "med_etr_no_exemption": 0.0068981655,
+    "med_etr": 0.0066786979,
+    "med_tax_bill": 6818.94905,
+    "property_count": 4770
+  },
+  {
+    "neighborhood": "Melrose",
+    "med_mkt_val": 712000.0,
+    "med_etr_no_exemption": 0.0083508335,
+    "med_etr": 0.0066211061,
+    "med_tax_bill": 4678.96535,
+    "property_count": 329
+  },
+  {
+    "neighborhood": "North Corona",
+    "med_mkt_val": 1020000.0,
+    "med_etr_no_exemption": 0.0069284923,
+    "med_etr": 0.0065971917,
+    "med_tax_bill": 6427.14788,
+    "property_count": 2800
+  },
+  {
+    "neighborhood": "Ditmars Steinway",
+    "med_mkt_val": 1270000.0,
+    "med_etr_no_exemption": 0.00682573,
+    "med_etr": 0.0065931339,
+    "med_tax_bill": 8185.49057,
+    "property_count": 5757
+  },
+  {
+    "neighborhood": "Sunnyside",
+    "med_mkt_val": 1184000.0,
+    "med_etr_no_exemption": 0.0067318605,
+    "med_etr": 0.0065216703,
+    "med_tax_bill": 7813.37471,
+    "property_count": 2166
+  },
+  {
+    "neighborhood": "Bensonhurst",
+    "med_mkt_val": 1243000.0,
+    "med_etr_no_exemption": 0.0067834116,
+    "med_etr": 0.0064976995,
+    "med_tax_bill": 7927.25317,
+    "property_count": 9234
+  },
+  {
+    "neighborhood": "Tremont",
+    "med_mkt_val": 623000.0,
+    "med_etr_no_exemption": 0.0081263971,
+    "med_etr": 0.0064845702,
+    "med_tax_bill": 3934.31029,
+    "property_count": 592
+  },
+  {
+    "neighborhood": "Fordham Heights",
+    "med_mkt_val": 591000.0,
+    "med_etr_no_exemption": 0.0066894156,
+    "med_etr": 0.006484045,
+    "med_tax_bill": 3703.37832,
+    "property_count": 363
+  },
+  {
+    "neighborhood": "Longwood",
+    "med_mkt_val": 645000.0,
+    "med_etr_no_exemption": 0.007387549,
+    "med_etr": 0.00642445,
+    "med_tax_bill": 3440.69585,
+    "property_count": 1377
+  },
+  {
+    "neighborhood": "Broad Channel",
+    "med_mkt_val": 437000.0,
+    "med_etr_no_exemption": 0.0069459464,
+    "med_etr": 0.0063494663,
+    "med_tax_bill": 2697.94582,
+    "property_count": 847
+  },
+  {
+    "neighborhood": "Hamilton Beach",
+    "med_mkt_val": 444000.0,
+    "med_etr_no_exemption": 0.0067894096,
+    "med_etr": 0.0063300822,
+    "med_tax_bill": 2641.42993,
+    "property_count": 511
+  },
+  {
+    "neighborhood": "Astoria",
+    "med_mkt_val": 1347000.0,
+    "med_etr_no_exemption": 0.0065275607,
+    "med_etr": 0.0062916388,
+    "med_tax_bill": 8216.81773,
+    "property_count": 6117
+  },
+  {
+    "neighborhood": "Belmont/Little Italy",
+    "med_mkt_val": 628000.0,
+    "med_etr_no_exemption": 0.006712904,
+    "med_etr": 0.0062789921,
+    "med_tax_bill": 3968.8125,
+    "property_count": 1083
+  },
+  {
+    "neighborhood": "East New York",
+    "med_mkt_val": 653000.0,
+    "med_etr_no_exemption": 0.007423115,
+    "med_etr": 0.0061136119,
+    "med_tax_bill": 3505.89021,
+    "property_count": 10476
+  },
+  {
+    "neighborhood": "Mott Haven",
+    "med_mkt_val": 684000.0,
+    "med_etr_no_exemption": 0.007038573,
+    "med_etr": 0.006085002,
+    "med_tax_bill": 4160.58552,
+    "property_count": 933
+  },
+  {
+    "neighborhood": "Brownsville",
+    "med_mkt_val": 651000.0,
+    "med_etr_no_exemption": 0.0081627235,
+    "med_etr": 0.0060773317,
+    "med_tax_bill": 3611.30187,
+    "property_count": 3895
+  },
+  {
+    "neighborhood": "Borough Park",
+    "med_mkt_val": 1492000.0,
+    "med_etr_no_exemption": 0.0061540131,
+    "med_etr": 0.0059486913,
+    "med_tax_bill": 8681.64505,
+    "property_count": 7865
+  },
+  {
+    "neighborhood": "Meadowmere",
+    "med_mkt_val": 407500.0,
+    "med_etr_no_exemption": 0.0062003783,
+    "med_etr": 0.0058785963,
+    "med_tax_bill": 2364.036395,
     "property_count": 46
   },
   {
-    "boro": 3,
+    "neighborhood": "Morrisania",
+    "med_mkt_val": 613000.0,
+    "med_etr_no_exemption": 0.0077563605,
+    "med_etr": 0.005764699,
+    "med_tax_bill": 3076.729285,
+    "property_count": 760
+  },
+  {
+    "neighborhood": "The Hole",
+    "med_mkt_val": 622000.0,
+    "med_etr_no_exemption": 0.0056841048,
+    "med_etr": 0.0056841048,
+    "med_tax_bill": 2957.45324,
+    "property_count": 77
+  },
+  {
+    "neighborhood": "Hell's Kitchen",
+    "med_mkt_val": 6018000.0,
+    "med_etr_no_exemption": 0.0056799157,
+    "med_etr": 0.0056799157,
+    "med_tax_bill": 31516.39298,
+    "property_count": 49
+  },
+  {
+    "neighborhood": "Nolita",
+    "med_mkt_val": 6976000.0,
+    "med_etr_no_exemption": 0.0056573443,
+    "med_etr": 0.0056573443,
+    "med_tax_bill": 26798.26868,
+    "property_count": 13
+  },
+  {
+    "neighborhood": "Gramercy",
+    "med_mkt_val": 7758000.0,
+    "med_etr_no_exemption": 0.0055806374,
+    "med_etr": 0.0055806374,
+    "med_tax_bill": 42672.672,
+    "property_count": 113
+  },
+  {
+    "neighborhood": "Kensington",
+    "med_mkt_val": 1292000.0,
+    "med_etr_no_exemption": 0.0056795102,
+    "med_etr": 0.005521619,
+    "med_tax_bill": 6997.59853,
+    "property_count": 3004
+  },
+  {
+    "neighborhood": "Edgemere",
+    "med_mkt_val": 445000.0,
+    "med_etr_no_exemption": 0.0073661271,
+    "med_etr": 0.0055081621,
+    "med_tax_bill": 2446.27019,
+    "property_count": 660
+  },
+  {
+    "neighborhood": "Financial District",
+    "med_mkt_val": 7760000.0,
+    "med_etr_no_exemption": 0.0054496679,
+    "med_etr": 0.0054496679,
+    "med_tax_bill": 55733.55768,
+    "property_count": 13
+  },
+  {
+    "neighborhood": "Flatbush",
+    "med_mkt_val": 1444000.0,
+    "med_etr_no_exemption": 0.0055298654,
+    "med_etr": 0.0053640007,
+    "med_tax_bill": 7660.231465,
+    "property_count": 3782
+  },
+  {
+    "neighborhood": "Hunters Point/Long Island City",
+    "med_mkt_val": 1295000.0,
+    "med_etr_no_exemption": 0.0053974115,
+    "med_etr": 0.0053357903,
+    "med_tax_bill": 6934.3092,
+    "property_count": 349
+  },
+  {
+    "neighborhood": "Morris Heights",
+    "med_mkt_val": 680500.0,
+    "med_etr_no_exemption": 0.005917368,
+    "med_etr": 0.0053066455,
+    "med_tax_bill": 3442.81255,
+    "property_count": 596
+  },
+  {
+    "neighborhood": "Mt Hope",
+    "med_mkt_val": 634000.0,
+    "med_etr_no_exemption": 0.0051786872,
+    "med_etr": 0.0050592967,
+    "med_tax_bill": 3184.78682,
+    "property_count": 273
+  },
+  {
+    "neighborhood": "Claremont Village",
+    "med_mkt_val": 611000.0,
+    "med_etr_no_exemption": 0.0052118709,
+    "med_etr": 0.0049603248,
+    "med_tax_bill": 2957.45324,
+    "property_count": 388
+  },
+  {
+    "neighborhood": "Sunset Park",
+    "med_mkt_val": 1332000.0,
+    "med_etr_no_exemption": 0.0050536018,
+    "med_etr": 0.0048967861,
+    "med_tax_bill": 6535.31125,
+    "property_count": 5739
+  },
+  {
+    "neighborhood": "Upper West Side",
+    "med_mkt_val": 7854500.0,
+    "med_etr_no_exemption": 0.0048622921,
+    "med_etr": 0.0048186554,
+    "med_tax_bill": 38624.90659,
+    "property_count": 600
+  },
+  {
+    "neighborhood": "Hunts Point",
+    "med_mkt_val": 689000.0,
+    "med_etr_no_exemption": 0.0050427089,
+    "med_etr": 0.0047810931,
+    "med_tax_bill": 3222.88742,
+    "property_count": 341
+  },
+  {
+    "neighborhood": "Concourse",
+    "med_mkt_val": 575000.0,
+    "med_etr_no_exemption": 0.004957375,
+    "med_etr": 0.0046295078,
+    "med_tax_bill": 2559.30197,
+    "property_count": 82
+  },
+  {
+    "neighborhood": "Concourse Village",
+    "med_mkt_val": 677000.0,
+    "med_etr_no_exemption": 0.0047914941,
+    "med_etr": 0.0045969101,
+    "med_tax_bill": 3068.36832,
+    "property_count": 434
+  },
+  {
+    "neighborhood": "Tribeca",
+    "med_mkt_val": 7990500.0,
+    "med_etr_no_exemption": 0.004535145,
+    "med_etr": 0.0045218116,
+    "med_tax_bill": 30279.3935,
+    "property_count": 46
+  },
+  {
+    "neighborhood": "Greenwich Village",
+    "med_mkt_val": 10608000.0,
+    "med_etr_no_exemption": 0.0044971681,
+    "med_etr": 0.0044317409,
+    "med_tax_bill": 47011.907,
+    "property_count": 321
+  },
+  {
+    "neighborhood": "Chelsea",
+    "med_mkt_val": 8077000.0,
+    "med_etr_no_exemption": 0.0043712955,
+    "med_etr": 0.0043663998,
+    "med_tax_bill": 33708.87084,
+    "property_count": 231
+  },
+  {
+    "neighborhood": "Highbridge",
+    "med_mkt_val": 650000.0,
+    "med_etr_no_exemption": 0.004826015,
+    "med_etr": 0.0043252657,
+    "med_tax_bill": 2729.69632,
+    "property_count": 353
+  },
+  {
+    "neighborhood": "Mt Eden",
+    "med_mkt_val": 677000.0,
+    "med_etr_no_exemption": 0.0044190508,
+    "med_etr": 0.0042676093,
+    "med_tax_bill": 2957.45324,
+    "property_count": 83
+  },
+  {
+    "neighborhood": "Hudson Square",
+    "med_mkt_val": 7759000.0,
+    "med_etr_no_exemption": 0.00438402,
+    "med_etr": 0.0042563954,
+    "med_tax_bill": 31602.331,
+    "property_count": 55
+  },
+  {
+    "neighborhood": "Prospect Lefferts Gardens",
+    "med_mkt_val": 1611000.0,
+    "med_etr_no_exemption": 0.0042742279,
+    "med_etr": 0.0040852219,
+    "med_tax_bill": 6604.73901,
+    "property_count": 1892
+  },
+  {
+    "neighborhood": "Crown Heights",
+    "med_mkt_val": 1282000.0,
+    "med_etr_no_exemption": 0.0043785086,
+    "med_etr": 0.0040770513,
+    "med_tax_bill": 5416.6353,
+    "property_count": 5627
+  },
+  {
+    "neighborhood": "Chinatown",
+    "med_mkt_val": 4416000.0,
+    "med_etr_no_exemption": 0.0039862497,
+    "med_etr": 0.0039277427,
+    "med_tax_bill": 19894.01662,
+    "property_count": 9
+  },
+  {
+    "neighborhood": "West Village",
+    "med_mkt_val": 9855000.0,
+    "med_etr_no_exemption": 0.0039020848,
+    "med_etr": 0.0038628953,
+    "med_tax_bill": 37219.20612,
+    "property_count": 525
+  },
+  {
+    "neighborhood": "Brooklyn Heights",
+    "med_mkt_val": 6099500.0,
+    "med_etr_no_exemption": 0.0039036483,
+    "med_etr": 0.0038277427,
+    "med_tax_bill": 25716.105805,
+    "property_count": 574
+  },
+  {
+    "neighborhood": "Two Bridges",
+    "med_mkt_val": 4902500.0,
+    "med_etr_no_exemption": 0.0038251707,
+    "med_etr": 0.0037610396,
+    "med_tax_bill": 17082.933185,
+    "property_count": 4
+  },
+  {
+    "neighborhood": "Brooklyn Navy Yard",
+    "med_mkt_val": 2012500.0,
+    "med_etr_no_exemption": 0.0037156735,
+    "med_etr": 0.0037156735,
+    "med_tax_bill": 6074.50566,
+    "property_count": 14
+  },
+  {
+    "neighborhood": "DUMBO",
+    "med_mkt_val": 4551000.0,
+    "med_etr_no_exemption": 0.0036727153,
+    "med_etr": 0.0036727153,
+    "med_tax_bill": 16182.80651,
+    "property_count": 8
+  },
+  {
+    "neighborhood": "SoHo",
+    "med_mkt_val": 7483500.0,
+    "med_etr_no_exemption": 0.0035793065,
+    "med_etr": 0.0035628691,
+    "med_tax_bill": 27596.158745,
+    "property_count": 38
+  },
+  {
+    "neighborhood": "Windsor Terrace",
+    "med_mkt_val": 1888000.0,
+    "med_etr_no_exemption": 0.0036060855,
+    "med_etr": 0.0034513504,
+    "med_tax_bill": 6370.63199,
+    "property_count": 1880
+  },
+  {
+    "neighborhood": "Washington Heights",
+    "med_mkt_val": 1925000.0,
+    "med_etr_no_exemption": 0.003624358,
+    "med_etr": 0.003417364,
+    "med_tax_bill": 5716.465855,
+    "property_count": 218
+  },
+  {
+    "neighborhood": "East Harlem",
+    "med_mkt_val": 2433000.0,
+    "med_etr_no_exemption": 0.0044062218,
+    "med_etr": 0.0033391222,
+    "med_tax_bill": 7957.73365,
+    "property_count": 411
+  },
+  {
+    "neighborhood": "Bushwick",
+    "med_mkt_val": 1127000.0,
+    "med_etr_no_exemption": 0.0034381194,
+    "med_etr": 0.0031215839,
+    "med_tax_bill": 3545.04916,
+    "property_count": 6465
+  },
+  {
+    "neighborhood": "Little Italy",
+    "med_mkt_val": 7280500.0,
+    "med_etr_no_exemption": 0.003063786,
+    "med_etr": 0.003063786,
+    "med_tax_bill": 21536.893325,
+    "property_count": 16
+  },
+  {
+    "neighborhood": "Vinegar Hill",
+    "med_mkt_val": 2662000.0,
+    "med_etr_no_exemption": 0.0030420876,
+    "med_etr": 0.0030420876,
+    "med_tax_bill": 6529.17282,
+    "property_count": 35
+  },
+  {
+    "neighborhood": "Greenwood Heights",
+    "med_mkt_val": 1535000.0,
+    "med_etr_no_exemption": 0.0031522733,
+    "med_etr": 0.0030374198,
+    "med_tax_bill": 4550.375825,
+    "property_count": 1374
+  },
+  {
+    "neighborhood": "Columbia Street Waterfront District",
+    "med_mkt_val": 2464000.0,
+    "med_etr_no_exemption": 0.0034973055,
+    "med_etr": 0.0030255882,
+    "med_tax_bill": 6373.912875,
+    "property_count": 208
+  },
+  {
+    "neighborhood": "Williamsburg",
+    "med_mkt_val": 1884000.0,
+    "med_etr_no_exemption": 0.0032381062,
+    "med_etr": 0.0030189084,
+    "med_tax_bill": 5125.37738,
+    "property_count": 3162
+  },
+  {
+    "neighborhood": "Harlem",
+    "med_mkt_val": 2590000.0,
+    "med_etr_no_exemption": 0.0032841912,
+    "med_etr": 0.0030117411,
+    "med_tax_bill": 8038.80326,
+    "property_count": 1649
+  },
+  {
+    "neighborhood": "Greenpoint",
+    "med_mkt_val": 1878000.0,
+    "med_etr_no_exemption": 0.0031135773,
+    "med_etr": 0.0029810035,
+    "med_tax_bill": 5645.02723,
+    "property_count": 2165
+  },
+  {
+    "neighborhood": "Bed Stuy",
+    "med_mkt_val": 1402000.0,
+    "med_etr_no_exemption": 0.0030734889,
+    "med_etr": 0.0029088261,
+    "med_tax_bill": 4139.63019,
+    "property_count": 12356
+  },
+  {
+    "neighborhood": "East Williamsburg",
+    "med_mkt_val": 1595500.0,
+    "med_etr_no_exemption": 0.0030838003,
+    "med_etr": 0.0028817129,
+    "med_tax_bill": 4808.189885,
+    "property_count": 416
+  },
+  {
+    "neighborhood": "Downtown Brooklyn",
+    "med_mkt_val": 2242000.0,
+    "med_etr_no_exemption": 0.003095749,
+    "med_etr": 0.0028290299,
+    "med_tax_bill": 6535.31125,
+    "property_count": 23
+  },
+  {
+    "neighborhood": "Lower East Side",
+    "med_mkt_val": 4567000.0,
+    "med_etr_no_exemption": 0.0027956445,
+    "med_etr": 0.0027956445,
+    "med_tax_bill": 15801.1655,
+    "property_count": 31
+  },
+  {
+    "neighborhood": "Clinton Hill",
+    "med_mkt_val": 2262000.0,
+    "med_etr_no_exemption": 0.0028006035,
+    "med_etr": 0.0027252409,
+    "med_tax_bill": 5991.95436,
+    "property_count": 1259
+  },
+  {
     "neighborhood": "Park Slope",
-    "med_mkt_val": 3407000,
-    "med_etr_no_exemption": 0.0027070142351529694,
-    "med_etr": 0.0026504606771879484,
-    "property_count": 6353
+    "med_mkt_val": 3407000.0,
+    "med_etr_no_exemption": 0.0027311663,
+    "med_etr": 0.002683721,
+    "med_tax_bill": 9014.17862,
+    "property_count": 3177
   },
   {
-    "boro": 3,
-    "neighborhood": "Prospect Heights",
-    "med_mkt_val": 2889000,
-    "med_etr_no_exemption": 0.002716832648102467,
-    "med_etr": 0.002621381981399466,
-    "property_count": 1538
+    "neighborhood": "Cobble Hill",
+    "med_mkt_val": 4576000.0,
+    "med_etr_no_exemption": 0.0027498321,
+    "med_etr": 0.0026835872,
+    "med_tax_bill": 12367.24309,
+    "property_count": 571
   },
   {
-    "boro": 3,
     "neighborhood": "Boerum Hill",
-    "med_mkt_val": 3172000,
-    "med_etr_no_exemption": 0.0026489656232193733,
-    "med_etr": 0.0025852214481811944,
-    "property_count": 2183
+    "med_mkt_val": 3171500.0,
+    "med_etr_no_exemption": 0.0026672403,
+    "med_etr": 0.0026011616,
+    "med_tax_bill": 8068.119555,
+    "property_count": 1092
   },
   {
-    "boro": 1,
-    "neighborhood": "East Village",
-    "med_mkt_val": 7446000,
-    "med_etr_no_exemption": 0.002532510474041364,
-    "med_etr": 0.002532510474041364,
-    "property_count": 154
+    "neighborhood": "Prospect Heights",
+    "med_mkt_val": 2889000.0,
+    "med_etr_no_exemption": 0.0027047567,
+    "med_etr": 0.0025952326,
+    "med_tax_bill": 7081.41985,
+    "property_count": 769
   },
   {
-    "boro": 3,
     "neighborhood": "Fort Greene",
-    "med_mkt_val": 3006000,
-    "med_etr_no_exemption": 0.0026536935245492126,
-    "med_etr": 0.0025287170654807447,
-    "property_count": 2246
+    "med_mkt_val": 3006000.0,
+    "med_etr_no_exemption": 0.0025549398,
+    "med_etr": 0.0025027531,
+    "med_tax_bill": 8126.43464,
+    "property_count": 1123
   },
   {
-    "boro": 3,
     "neighborhood": "South Slope",
-    "med_mkt_val": 2268000,
-    "med_etr_no_exemption": 0.002483607684501845,
-    "med_etr": 0.0023849621646444196,
-    "property_count": 3662
+    "med_mkt_val": 2268000.0,
+    "med_etr_no_exemption": 0.0025100217,
+    "med_etr": 0.0024035763,
+    "med_tax_bill": 5460.02765,
+    "property_count": 1831
   },
   {
-    "boro": 1,
-    "neighborhood": "NoHo",
-    "med_mkt_val": 10303000,
-    "med_etr_no_exemption": 0.0023741783578166095,
-    "med_etr": 0.0023741783578166095,
-    "property_count": 20
-  },
-  {
-    "boro": 3,
     "neighborhood": "Carroll Gardens",
-    "med_mkt_val": 3020000,
-    "med_etr_no_exemption": 0.002442292678654548,
-    "med_etr": 0.0023704776951400165,
-    "property_count": 2804
+    "med_mkt_val": 3020000.0,
+    "med_etr_no_exemption": 0.0024476463,
+    "med_etr": 0.0023741796,
+    "med_tax_bill": 7147.88423,
+    "property_count": 1402
   },
   {
-    "boro": 3,
+    "neighborhood": "NoHo",
+    "med_mkt_val": 10303000.0,
+    "med_etr_no_exemption": 0.0023674629,
+    "med_etr": 0.0023674629,
+    "med_tax_bill": 24839.4745,
+    "property_count": 10
+  },
+  {
+    "neighborhood": "East Village",
+    "med_mkt_val": 7446000.0,
+    "med_etr_no_exemption": 0.0023827517,
+    "med_etr": 0.0023642164,
+    "med_tax_bill": 19119.09275,
+    "property_count": 77
+  },
+  {
     "neighborhood": "Gowanus",
-    "med_mkt_val": 2210000,
-    "med_etr_no_exemption": 0.0020692430338099047,
-    "med_etr": 0.0019776846076209227,
-    "property_count": 1842
+    "med_mkt_val": 2210000.0,
+    "med_etr_no_exemption": 0.0021195672,
+    "med_etr": 0.0020099849,
+    "med_tax_bill": 4417.34123,
+    "property_count": 921
   },
   {
-    "boro": 1,
-    "neighborhood": "Morningside Heights",
-    "med_mkt_val": 9418000,
-    "med_etr_no_exemption": 0.0024283134413764385,
-    "med_etr": 0.001907645246961488,
-    "property_count": 2
-  },
-  {
-    "boro": 3,
-    "neighborhood": "Red Hook",
-    "med_mkt_val": 1919000,
-    "med_etr_no_exemption": 0.0018880497189121596,
-    "med_etr": 0.0018189459348627382,
-    "property_count": 778
-  },
-  {
-    "boro": 1,
     "neighborhood": "Meatpacking District",
-    "med_mkt_val": 7833000,
-    "med_etr_no_exemption": 0.0017028245873749932,
-    "med_etr": 0.0017028245873749932,
-    "property_count": 2
+    "med_mkt_val": 7833000.0,
+    "med_etr_no_exemption": 0.0018289336,
+    "med_etr": 0.0018289336,
+    "med_tax_bill": 14326.03727,
+    "property_count": 1
   },
   {
-    "boro": 1,
+    "neighborhood": "Red Hook",
+    "med_mkt_val": 1919000.0,
+    "med_etr_no_exemption": 0.0018646518,
+    "med_etr": 0.0017628251,
+    "med_tax_bill": 3121.70916,
+    "property_count": 389
+  },
+  {
+    "neighborhood": "Morningside Heights",
+    "med_mkt_val": 9418000.0,
+    "med_etr_no_exemption": 0.0026700806,
+    "med_etr": 0.0016287442,
+    "med_tax_bill": 15339.51323,
+    "property_count": 1
+  },
+  {
     "neighborhood": "Alphabet City",
-    "med_mkt_val": 4938000,
-    "med_etr_no_exemption": 0.002055574129689967,
-    "med_etr": 0.0016784474181609221,
-    "property_count": 72
+    "med_mkt_val": 4938000.0,
+    "med_etr_no_exemption": 0.0020555741,
+    "med_etr": 0.0015729275,
+    "med_tax_bill": 7745.534475,
+    "property_count": 36
   }
 ]
