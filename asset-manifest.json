@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/nyc-prop-tax/static/css/main.29b9eda0.chunk.css",
-    "main.js": "/nyc-prop-tax/static/js/main.a55eadf3.chunk.js",
-    "main.js.map": "/nyc-prop-tax/static/js/main.a55eadf3.chunk.js.map",
+    "main.js": "/nyc-prop-tax/static/js/main.95f3e81c.chunk.js",
+    "main.js.map": "/nyc-prop-tax/static/js/main.95f3e81c.chunk.js.map",
     "runtime-main.js": "/nyc-prop-tax/static/js/runtime-main.11b1909c.js",
     "runtime-main.js.map": "/nyc-prop-tax/static/js/runtime-main.11b1909c.js.map",
-    "static/js/2.29392024.chunk.js": "/nyc-prop-tax/static/js/2.29392024.chunk.js",
-    "static/js/2.29392024.chunk.js.map": "/nyc-prop-tax/static/js/2.29392024.chunk.js.map",
+    "static/js/2.285705c7.chunk.js": "/nyc-prop-tax/static/js/2.285705c7.chunk.js",
+    "static/js/2.285705c7.chunk.js.map": "/nyc-prop-tax/static/js/2.285705c7.chunk.js.map",
     "index.html": "/nyc-prop-tax/index.html",
-    "precache-manifest.9a5fa93edd822f2f969ffbe9aea7dabe.js": "/nyc-prop-tax/precache-manifest.9a5fa93edd822f2f969ffbe9aea7dabe.js",
+    "precache-manifest.3c5f3291bb947537f6ea77dd28a0a756.js": "/nyc-prop-tax/precache-manifest.3c5f3291bb947537f6ea77dd28a0a756.js",
     "service-worker.js": "/nyc-prop-tax/service-worker.js",
     "static/css/main.29b9eda0.chunk.css.map": "/nyc-prop-tax/static/css/main.29b9eda0.chunk.css.map",
-    "static/js/2.29392024.chunk.js.LICENSE.txt": "/nyc-prop-tax/static/js/2.29392024.chunk.js.LICENSE.txt"
+    "static/js/2.285705c7.chunk.js.LICENSE.txt": "/nyc-prop-tax/static/js/2.285705c7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.11b1909c.js",
-    "static/js/2.29392024.chunk.js",
+    "static/js/2.285705c7.chunk.js",
     "static/css/main.29b9eda0.chunk.css",
-    "static/js/main.a55eadf3.chunk.js"
+    "static/js/main.95f3e81c.chunk.js"
   ]
 }
