@@ -18,7 +18,7 @@ class InfoModal extends Component {
             <br></br>
             All the calculated tax rates are assigned an index and mapped to eight different shades:
             <Legend color_mapping={this.props.color_mapping} />
-            where the darker the shade, the higher the median ETR of the neighborhood. Select a neighborhood to see the
+            The darker the shade, the higher the median ETR of the neighborhood. Select a neighborhood to see the
             name and attributes.
             <br></br>
             <br></br>
