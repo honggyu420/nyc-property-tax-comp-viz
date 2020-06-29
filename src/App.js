@@ -9,7 +9,6 @@ import AggregateReport from "./components/aggregate_report";
 import load from "./assets/loading.gif";
 import Map from "./components/map";
 
-require("dotenv").config();
 class App extends Component {
   constructor(props) {
     super(props);
