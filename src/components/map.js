@@ -36,11 +36,16 @@ const color_mapping = [
 const preprocessNeighborhood = (neighborhood_data, neighborhood_tax_data) => {
   let enriched_neighborhood_data = { ...neighborhood_data };
   enriched_neighborhood_data.features.map((feature) => {
-    let tax_data = neighborhood_tax_data.filter((n) => n.neighborhood === feature.properties.Name);
+    let tax_data = neighborhood_tax_data.filter(
+      (n) => n.neighborhood === feature.properties.Name
+    );
     if (tax_data && tax_data.length) {
       tax_data = tax_data[0];
       feature.properties = { ...feature.properties, ...tax_data };
-      feature.properties.etr_index = calculateETRIndex(feature.properties.med_etr, feature.properties.property_count);
+      feature.properties.etr_index = calculateETRIndex(
+        feature.properties.med_etr,
+        feature.properties.property_count
+      );
     } else {
       feature = false;
     }
@@ -49,14 +54,19 @@ const preprocessNeighborhood = (neighborhood_data, neighborhood_tax_data) => {
   });
 
   // filter out staten island
-  enriched_neighborhood_data.features = enriched_neighborhood_data.features.filter((feature) => {
-    return feature.properties.property_count;
-  });
+  enriched_neighborhood_data.features = enriched_neighborhood_data.features.filter(
+    (feature) => {
+      return feature.properties.property_count;
+    }
+  );
 
   return enriched_neighborhood_data;
 };
 
-const enriched_neighborhood_data = preprocessNeighborhood(neighborhood_data, neighborhood_tax_data);
+const enriched_neighborhood_data = preprocessNeighborhood(
+  neighborhood_data,
+  neighborhood_tax_data
+);
 
 class Map extends Component {
   constructor(props) {
@@ -86,7 +96,13 @@ class Map extends Component {
         "place-suburb",
         "place-hamlet",
       ],
-      allowed_layers: ["road-motorway", "road-street", "road-primary", "road-secondary-tertiary", "road-label-large"],
+      allowed_layers: [
+        "road-motorway",
+        "road-street",
+        "road-primary",
+        "road-secondary-tertiary",
+        "road-label-large",
+      ],
     };
 
     this.handleShow = this.handleShow.bind(this);
@@ -114,7 +130,10 @@ class Map extends Component {
       const { remove_layers, allowed_layers } = this.state;
       let layers = map.getStyle().layers;
       let filterable_layers = layers.filter((style) => {
-        return remove_layers.reduce((accum, val) => accum || style.id.indexOf(val) > -1, false);
+        return remove_layers.reduce(
+          (accum, val) => accum || style.id.indexOf(val) > -1,
+          false
+        );
       });
 
       for (let layer of filterable_layers) {
@@ -159,8 +178,14 @@ class Map extends Component {
       });
     });
 
-    var popup_1 = new mapboxgl.Popup({ className: "mapbox-popup", closeOnClick: false });
-    var popup_2 = new mapboxgl.Popup({ className: "mapbox-popup", closeOnClick: false });
+    var popup_1 = new mapboxgl.Popup({
+      className: "mapbox-popup",
+      closeOnClick: false,
+    });
+    var popup_2 = new mapboxgl.Popup({
+      className: "mapbox-popup",
+      closeOnClick: false,
+    });
     var popup_1_open = false;
     var popup_2_open = false;
 
@@ -174,7 +199,12 @@ class Map extends Component {
     );
 
     const showPopup = (e) => {
-      let { Name, med_etr, med_mkt_val, property_count } = e.features[0].properties;
+      let {
+        Name,
+        med_etr,
+        med_mkt_val,
+        property_count,
+      } = e.features[0].properties;
       let html = `<b>${Name}</b><br>`;
 
       if (property_count < 10) {
@@ -229,6 +259,15 @@ class Map extends Component {
 
   render() {
     let { show } = this.state;
+
+    // show "about this" on first page load
+    let visited = localStorage["alreadyVisited"];
+    if (visited) {
+      show = show || false;
+    } else {
+      show = show || true;
+      localStorage["alreadyVisited"] = true;
+    }
     return (
       <div>
         <div>
@@ -243,7 +282,11 @@ class Map extends Component {
           </div>
         </div>
         <div ref={(el) => (this.mapContainer = el)} className="mapContainer" />
-        <InfoModal show={show} handleClose={this.handleClose} color_mapping={color_mapping}></InfoModal>
+        <InfoModal
+          show={show}
+          handleClose={this.handleClose}
+          color_mapping={color_mapping}
+        ></InfoModal>
       </div>
     );
   }
