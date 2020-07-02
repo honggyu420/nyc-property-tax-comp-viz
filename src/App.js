@@ -1,81 +1,54 @@
 import React, { Component } from "react";
 // import {Container, Row, Col} from 'react-bootstrap'
 import "./App.css";
-import DataChart from "./components/datachart";
-import AddressForm from "./components/address_form";
-import PropertyInfo from "./components/property_info";
-import CalculatedTaxInfo from "./components/calculated_tax_info";
-import AggregateReport from "./components/aggregate_report";
-import load from "./assets/loading.gif";
 import Map from "./components/map";
+import InfoModal from "./components/info_modal";
+import { getNeighborhoodData } from "./helpers/neighborhood_data";
+const enriched_neighborhood_data = getNeighborhoodData();
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      geoclient_json: null,
-      property_tax_json: null,
-      agg_result: null,
-      message: null,
-      loading: false,
+      show: false,
     };
 
-    this.handleAddressSubmit = this.handleAddressSubmit.bind(this);
-    this.showLoading = this.showLoading.bind(this);
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
   }
 
-  handleAddressSubmit(geoclient_json, property_tax_json, agg_result, message) {
-    this.setState({
-      geoclient_json,
-      property_tax_json,
-      agg_result,
-      message,
-      loading: false,
-    });
+  handleShow() {
+    this.setState({ show: true });
   }
 
-  resetState() {
-    this.setState({
-      geoclient_json: null,
-      property_tax_json: null,
-      agg_result: null,
-      message: null,
-      loading: false,
-    });
-  }
-
-  showLoading() {
-    this.resetState();
-    this.setState({ loading: true });
+  handleClose() {
+    this.setState({ show: false });
   }
 
   render() {
-    const { property_tax_json, agg_result, message, loading } = this.state;
+    let { show } = this.state;
 
+    // show "about this" on first page load
+    let visited = localStorage["alreadyVisited"];
+    if (visited) {
+      show = show || false;
+    } else {
+      show = show || true;
+      localStorage["alreadyVisited"] = true;
+    }
     return (
       <div className="App">
-        <br></br>
-        <h1>NYC Property Tax Data Explorer</h1>
-        <Map></Map>
-        <br></br>
-        <AddressForm
-          handleAddressSubmit={this.handleAddressSubmit}
-          showLoading={this.showLoading}
-        ></AddressForm>
-        {loading ? <img src={load} alt="loading..." /> : ""}
-        <h3>{message}</h3>
-        <br></br>
-        <PropertyInfo property_tax_data={property_tax_json}></PropertyInfo>
-        <br></br>
-        <DataChart property_tax_data={property_tax_json}></DataChart>
-        <br></br>
-        <br></br>
-        <CalculatedTaxInfo
-          property_tax_data={property_tax_json}
-        ></CalculatedTaxInfo>
-        <br></br>
-        <AggregateReport agg_result={agg_result}></AggregateReport>
-        <br></br>
+        <div className="sidebarStyle">
+          <p>
+            <b>NYC Property Tax Rate - Class 1</b>
+          </p>
+          <p>Select a neighborhood for more info.</p>
+          <a href="#" onClick={this.handleShow}>
+            ( What is this? )
+          </a>
+        </div>
+        <Map dataset_name="tax-rate" data={enriched_neighborhood_data}></Map>
+        <InfoModal show={show} handleClose={this.handleClose}></InfoModal>
       </div>
     );
   }
